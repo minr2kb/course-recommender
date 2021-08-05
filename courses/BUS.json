@@ -1,0 +1,674 @@
+{
+	"BUS115": {
+		"major": "BUS",
+		"number": 115,
+		"title": "Introduction to Business",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS215": {
+		"major": "BUS",
+		"number": 215,
+		"title": "Introduction to Business Statistics",
+		"prereq": [
+			"BUS Maj/Min, CME Maj, or ISE Maj",
+			"and MAT 122 or higher."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS220": {
+		"major": "BUS",
+		"number": 220,
+		"title": "Introduction to Decision Sciences",
+		"prereq": [
+			"BUS Maj/Min, MTD, ECO, ISE, or CME major",
+			"BUS 215",
+			"MAT 122 or higher"
+		],
+		"credit": [3],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"BUS294": {
+		"major": "BUS",
+		"number": 294,
+		"title": "Principles of Management",
+		"prereq": [
+			"BUS Major or Minor",
+			"U1 or U2 standing or permission of instructor"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS300": {
+		"major": "BUS",
+		"number": 300,
+		"title": "Writing for Business Management",
+		"prereq": ["BUS major", "U3 standing"],
+		"credit": [0],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS301": {
+		"major": "BUS",
+		"number": 301,
+		"title": "Business Communications",
+		"prereq": ["BUS major", " WRT 102", "and U3 or U4 standing"],
+		"credit": [3],
+		"SBC": ["SPK", "WRTD"],
+		"SBC_type": "full"
+	},
+	"BUS302": {
+		"major": "BUS",
+		"number": 302,
+		"title": "Social Media Marketing Strategy",
+		"prereq": ["WRT 102, U2 standing or above"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS325": {
+		"major": "BUS",
+		"number": 325,
+		"title": "Legal Environment of Business",
+		"prereq": ["ACC Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS326": {
+		"major": "BUS",
+		"number": 326,
+		"title": "Organizational Behavior",
+		"prereq": ["BUS maj/min."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS330": {
+		"major": "BUS",
+		"number": 330,
+		"title": "Principles of Finance",
+		"prereq": ["BUS major/minor, AMS, MTD, ISE, or ECO major."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS331": {
+		"major": "BUS",
+		"number": 331,
+		"title": "International Finance",
+		"prereq": [
+			"BUS 330",
+			"Business major or AMS or ISE or MTD or ECO major or ENT minor"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS332": {
+		"major": "BUS",
+		"number": 332,
+		"title": "Entrepreneurial Finance",
+		"prereq": ["BUS 330", "Business Major or or Entrepreneurship Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS333": {
+		"major": "BUS",
+		"number": 333,
+		"title": "Introduction to the Business of Real Estate",
+		"prereq": ["BUS Major or Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS334": {
+		"major": "BUS",
+		"number": 334,
+		"title": "Consumer Advertising and Promotion",
+		"prereq": ["BUS major and U3 or U4 standing."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS336": {
+		"major": "BUS",
+		"number": 336,
+		"title": "Mergers & Acquisitions",
+		"prereq": ["BUS 330", "Business Major or or Entrepreneurship Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS337": {
+		"major": "BUS",
+		"number": 337,
+		"title": "Entrepreneurship Compared Across Countries",
+		"prereq": ["Business major, Business Minor or Entrepreneurship minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS340": {
+		"major": "BUS",
+		"number": 340,
+		"title": "Information Systems in Management",
+		"prereq": [
+			"BUS Major/Minor, ISE Major, or CME Major",
+			"U3 or U4 standing."
+		],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"BUS346": {
+		"major": "BUS",
+		"number": 346,
+		"title": "Operations Management",
+		"prereq": [
+			"BUS Major/Minor or ISE Major: BUS 215 or AMS 102 for non-business majors, and BUS 220."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS348": {
+		"major": "BUS",
+		"number": 348,
+		"title": "Principles of Marketing",
+		"prereq": [
+			"BUS Major/Minor or ISE Major or PSY major admitted to the marketing concentration."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS351": {
+		"major": "BUS",
+		"number": 351,
+		"title": "Human Resource Management",
+		"prereq": ["BUS Major/Minor or MTD Major."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS353": {
+		"major": "BUS",
+		"number": 353,
+		"title": "Entrepreneurship",
+		"prereq": [
+			"Business majors,  Business minors, Entreprenuership Minors or Engineering majors: U4 Standing"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS354": {
+		"major": "BUS",
+		"number": 354,
+		"title": "Understanding Business Agreements",
+		"prereq": ["U3 or U4 standing", "BUS or CEAS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS355": {
+		"major": "BUS",
+		"number": 355,
+		"title": "Investment Analysis",
+		"prereq": ["BUS, AMS, MTD, ISE, or ECO major", "BUS 330"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS356": {
+		"major": "BUS",
+		"number": 356,
+		"title": "Financial Analysis with Excel",
+		"prereq": ["BUS, AMS, MTD, ISE, or ECO major", "BUS 330"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS357": {
+		"major": "BUS",
+		"number": 357,
+		"title": "Principles of Sales",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS358": {
+		"major": "BUS",
+		"number": 358,
+		"title": "Marketing Research",
+		"prereq": [
+			"BUS major or PSY major admitted to the marketing concentration",
+			"U3 or U4 standing",
+			"BUS 215 for BUS majors, one of the following for PSY majors: AMS 102, ECO 320, POL 201, PSY 201 or SOC 202."
+		],
+		"credit": [3],
+		"SBC": ["ESI"],
+		"SBC_type": "full"
+	},
+	"BUS359": {
+		"major": "BUS",
+		"number": 359,
+		"title": "Consumer Behavior",
+		"prereq": [
+			"BUS major or PSY major admitted to the marketing concentration",
+			"U3 or U4 standing"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS361": {
+		"major": "BUS",
+		"number": 361,
+		"title": "Retail Management",
+		"prereq": ["BUS Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS362": {
+		"major": "BUS",
+		"number": 362,
+		"title": "Principles of International Marketing",
+		"prereq": ["BUS Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS363": {
+		"major": "BUS",
+		"number": 363,
+		"title": "Brand Management",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS365": {
+		"major": "BUS",
+		"number": 365,
+		"title": "Financial Management",
+		"prereq": ["BUS, AMS, MTD, ISE, or ECO major", "BUS 330"],
+		"credit": [3],
+		"SBC": ["ESI"],
+		"SBC_type": "full"
+	},
+	"BUS366": {
+		"major": "BUS",
+		"number": 366,
+		"title": "Money and Financial Institutions",
+		"prereq": ["BUS, AMS, MTD, ISE, or ECO major", "BUS 330"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS369": {
+		"major": "BUS",
+		"number": 369,
+		"title": "Marketing of New Products",
+		"prereq": ["BUS Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS370": {
+		"major": "BUS",
+		"number": 370,
+		"title": "Lean Practices in Operations",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS371": {
+		"major": "BUS",
+		"number": 371,
+		"title": "Supply Chain Management",
+		"prereq": ["BUS major and pre/co-requisite BUS 346"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS372": {
+		"major": "BUS",
+		"number": 372,
+		"title": "Quality Management",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS375": {
+		"major": "BUS",
+		"number": 375,
+		"title": "Data Mining",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS376": {
+		"major": "BUS",
+		"number": 376,
+		"title": "Risk Management & Insurance",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS377": {
+		"major": "BUS",
+		"number": 377,
+		"title": "Risk Management & Insurance II",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS378": {
+		"major": "BUS",
+		"number": 378,
+		"title": "Marketing Ethics, Public Policy, and Social Change",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS380": {
+		"major": "BUS",
+		"number": 380,
+		"title": "Honors - Research Methods",
+		"prereq": ["Admission to the honors program in business management"],
+		"credit": [3],
+		"SBC": ["ESI"],
+		"SBC_type": "full"
+	},
+	"BUS383": {
+		"major": "BUS",
+		"number": 383,
+		"title": "Social Entrepreneurship",
+		"prereq": ["BUS Major,  BUS Minor or ENT Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS389": {
+		"major": "BUS",
+		"number": 389,
+		"title": "Honors Research in Marketing",
+		"prereq": [
+			"Business Honors Program membership and department consent required."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS390": {
+		"major": "BUS",
+		"number": 390,
+		"title": "Special Topics in Business Management",
+		"prereq": ["BUS major", "U3 or U4 standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS391": {
+		"major": "BUS",
+		"number": 391,
+		"title": "Management of Sports Organizations",
+		"prereq": ["U3 or U4 standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS393": {
+		"major": "BUS",
+		"number": 393,
+		"title": "Principles of Project Management",
+		"prereq": ["BUS Major or Minor", "BUS 346"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS399": {
+		"major": "BUS",
+		"number": 399,
+		"title": "Intellectual Property Strategy",
+		"prereq": [
+			"Business majors, Business minors or Entrepreneurship minors, or by permission of instructor",
+			"U3 or U4 standing"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS401": {
+		"major": "BUS",
+		"number": 401,
+		"title": "Negotiation Workshop",
+		"prereq": ["Business Major or Entrepreneurship Minor", "U4 Standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS440": {
+		"major": "BUS",
+		"number": 440,
+		"title": "International Management",
+		"prereq": ["BUS Major or Minor or ECO or MTD Major", "U4 standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS441": {
+		"major": "BUS",
+		"number": 441,
+		"title": "Business Strategy",
+		"prereq": ["BUS or ECO or MTD or CME Major", "U4 standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS446": {
+		"major": "BUS",
+		"number": 446,
+		"title": "Ethics",
+		"prereq": ["BUS Major or BUS Minor", "WRT 102 ", "U4 standing"],
+		"credit": [3],
+		"SBC": ["CER"],
+		"SBC_type": "full"
+	},
+	"BUS447": {
+		"major": "BUS",
+		"number": 447,
+		"title": "Business Ethics",
+		"prereq": [
+			"BUS Major or ECO, ISE, or MTD Major",
+			"WRT 102",
+			"U4 standing."
+		],
+		"credit": [3],
+		"SBC": ["CER"],
+		"SBC_type": "full"
+	},
+	"BUS448": {
+		"major": "BUS",
+		"number": 448,
+		"title": "Marketing Strategy",
+		"prereq": [
+			"BUS Major or PSY major admitted to the marketing concentration and U4 Standing",
+			"Pre or Co-requisite BUS 358."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS449": {
+		"major": "BUS",
+		"number": 449,
+		"title": "Marketing in Action",
+		"prereq": ["BUS Major", "U4 Standing", "BUS 348 and BUS 358"],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS468": {
+		"major": "BUS",
+		"number": 468,
+		"title": "Risk Arbitrage",
+		"prereq": ["BUS Major, BUS 330, and department consent"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS475": {
+		"major": "BUS",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum I",
+		"prereq": [
+			"Grade of A or A- in the course in which the student is to assist and permission of undergraduate program director"
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS476": {
+		"major": "BUS",
+		"number": 476,
+		"title": "Undergraduate Teaching Practicum II",
+		"prereq": ["BUS 475 and permission of undergraduate program director"],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS487": {
+		"major": "BUS",
+		"number": 487,
+		"title": "Independent Research",
+		"prereq": [
+			"Permission of instructor and undergraduate program director"
+		],
+		"credit": [0, 3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS488": {
+		"major": "BUS",
+		"number": 488,
+		"title": "Internship",
+		"prereq": ["BUS major", "permission of undergraduate program director"],
+		"credit": [0, 3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS495": {
+		"major": "BUS",
+		"number": 495,
+		"title": "Business Honors Program Thesis",
+		"prereq": [
+			"Business Honors Program membership and department consent required."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS496": {
+		"major": "BUS",
+		"number": 496,
+		"title": "Business Honors Program Thesis",
+		"prereq": [
+			"Business Honors Program membership and department consent required."
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"ACC210": {
+		"major": "ACC",
+		"number": 210,
+		"title": "Financial Accounting",
+		"prereq": [
+			"Business Major or BUS Minor or ACC Minor or MTD or ECO or ISE Major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC214": {
+		"major": "ACC",
+		"number": 214,
+		"title": "Managerial Cost Analysis and Applications",
+		"prereq": ["BUS major or ACC minor or ISE Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC310": {
+		"major": "ACC",
+		"number": 310,
+		"title": "Intermediate Accounting I",
+		"prereq": ["BUS major or ACC minor and ACC 210"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC311": {
+		"major": "ACC",
+		"number": 311,
+		"title": "Federal Income Taxation I",
+		"prereq": ["BUS major or ACC minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC313": {
+		"major": "ACC",
+		"number": 313,
+		"title": "Intermediate Accounting II",
+		"prereq": ["BUS major or ACC Minor and ACC 310"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC314": {
+		"major": "ACC",
+		"number": 314,
+		"title": "Federal Income Taxation II",
+		"prereq": ["BUS Major or ACC Minor and ACC 311"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC315": {
+		"major": "ACC",
+		"number": 315,
+		"title": "Accounting for the Small Business Entrepreneur",
+		"prereq": ["BUS Major", "ACC 210"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC400": {
+		"major": "ACC",
+		"number": 400,
+		"title": "External Auditing",
+		"prereq": ["BUS Major or ACC minor and ACC 210"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	}
+}

@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Kyungbae Min",
+		"major": "AMS",
+		"minor": "CS",
+		"spec": "",
+		"grade": 3,
+		"math": 8,
+		"wrt": 2,
+		"courses": [
+			"AMS161",
+			"AMS210",
+			"AMS310",
+			"AMS301",
+			"WAE192",
+			"WAE194",
+			"CSE101",
+			"CSE114",
+			"CSE215",
+			"BIO201"
+		]
+	}
+]

@@ -1,0 +1,763 @@
+{
+	"CSE101": {
+		"major": "CSE",
+		"number": 101,
+		"title": "Computer Science Principles",
+		"prereq": [
+			"Level 3 or higher on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE102": {
+		"major": "CSE",
+		"number": 102,
+		"title": "Introduction to Web Design and Programming",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE110": {
+		"major": "CSE",
+		"number": 110,
+		"title": "Introduction to Computer Science",
+		"prereq": [
+			"Level 3 or higher on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE114": {
+		"major": "CSE",
+		"number": 114,
+		"title": "Introduction to Object-Oriented Programming",
+		"prereq": ["Level 4 or higher on the math placement exam"],
+		"credit": [4],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE130": {
+		"major": "CSE",
+		"number": 130,
+		"title": "Introduction to Programming in C",
+		"prereq": [
+			"Level 3 or higher on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE150": {
+		"major": "CSE",
+		"number": 150,
+		"title": "Foundations of Computer Science",
+		"prereq": [
+			"one MAT course that satisfies D.E.C. C or QPS or score of level 4 on the math placement exam",
+			"admission to the Computer Science Honors Program or the Honors College or the WISE Honors Program or University Scholars."
+		],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE160": {
+		"major": "CSE",
+		"number": 160,
+		"title": "Computer Science A",
+		"prereq": [
+			"Computer Science Honors Program or the Honors College or the WISE Honors Program or University Scholars."
+		],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE161": {
+		"major": "CSE",
+		"number": 161,
+		"title": "Laboratory for Computer Science A",
+		"prereq": [],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE190": {
+		"major": "CSE",
+		"number": 190,
+		"title": "Special Topics in Practice and Applications of Computer Science",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE191": {
+		"major": "CSE",
+		"number": 191,
+		"title": "Special Topics in Practice and Applications for Computer Science",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE192": {
+		"major": "CSE",
+		"number": 192,
+		"title": "Special Topics in Practice and Applications for Computer Science",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE214": {
+		"major": "CSE",
+		"number": 214,
+		"title": "Data Structures",
+		"prereq": ["C or higher in CSE 114"],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE215": {
+		"major": "CSE",
+		"number": 215,
+		"title": "Foundations of Computer Science",
+		"prereq": ["AMS 151 or MAT 125 or MAT 131"],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE216": {
+		"major": "CSE",
+		"number": 216,
+		"title": "Programming Abstractions",
+		"prereq": ["C or higher in CSE 214", "CSE major"],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE219": {
+		"major": "CSE",
+		"number": 219,
+		"title": "Computer Science III",
+		"prereq": ["C or higher in CSE 214 and CSE major or ECE major"],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE220": {
+		"major": "CSE",
+		"number": 220,
+		"title": "Systems Fundamentals I",
+		"prereq": [
+			"C or higher in CSE 214 or co-requisite CSE 260 and CSE major"
+		],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE230": {
+		"major": "CSE",
+		"number": 230,
+		"title": "Intermediate Programming in C and C++",
+		"prereq": [
+			"CSE 130 or CSE 220 or ESE 124 or ESG 111 or BME 120 or MEC 102"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE260": {
+		"major": "CSE",
+		"number": 260,
+		"title": "Computer Science B",
+		"prereq": ["CSE 160"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE261": {
+		"major": "CSE",
+		"number": 261,
+		"title": "Laboratory for Computer Science B",
+		"prereq": [],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE300": {
+		"major": "CSE",
+		"number": 300,
+		"title": "Technical Communications",
+		"prereq": ["WRT 102, CSE or ISE major, U3 or U4 standing"],
+		"credit": [3],
+		"SBC": ["SPK", "WRTD"],
+		"SBC_type": "full"
+	},
+	"CSE301": {
+		"major": "CSE",
+		"number": 301,
+		"title": "History of Computing",
+		"prereq": ["U2 standing or higher"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"CSE303": {
+		"major": "CSE",
+		"number": 303,
+		"title": "Introduction to the Theory of Computation",
+		"prereq": [
+			"C or higher: CSE 160 or CSE 214",
+			"CSE 150 or CSE 215",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE304": {
+		"major": "CSE",
+		"number": 304,
+		"title": "Compiler Design",
+		"prereq": ["C or higher: CSE 216 or CSE 219 or CSE 260", "CSE 220"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE305": {
+		"major": "CSE",
+		"number": 305,
+		"title": "Principles of Database Systems",
+		"prereq": ["C or higher: CSE 216 or CSE 219 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": ["ESI", "EXP+", "SBS+", "STEM+"],
+		"SBC_type": "partial"
+	},
+	"CSE306": {
+		"major": "CSE",
+		"number": 306,
+		"title": "Operating Systems",
+		"prereq": [
+			"C or higher: CSE 216 or CSE 219 or CSE 260",
+			"CSE 320 or ESE 380",
+			"CSE Major or ECE major."
+		],
+		"credit": [3],
+		"SBC": ["ESI", "EXP+", "SBS+", "STEM+"],
+		"SBC_type": "partial"
+	},
+	"CSE307": {
+		"major": "CSE",
+		"number": 307,
+		"title": "Principles of Programming Languages",
+		"prereq": [
+			"C or higher: CSE 216 or CSE 219 or CSE 260",
+			"CSE 220",
+			"CSE major."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE310": {
+		"major": "CSE",
+		"number": 310,
+		"title": "Computer Networks",
+		"prereq": [
+			"C or higher: CSE 214 or 260",
+			"CSE 220 or ISE 218",
+			"CSE major or ISE major."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE311": {
+		"major": "CSE",
+		"number": 311,
+		"title": "Systems Administration",
+		"prereq": [
+			"CSE 214 or CSE 230 or CSE 260 or ISE 208",
+			"ISE or CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE312": {
+		"major": "CSE",
+		"number": 312,
+		"title": "Legal, Social, and Ethical Issues in Information Systems",
+		"prereq": [
+			"CSE or ISE major",
+			"U3 or U4 standing",
+			"one D.E.C. E or SNW  course"
+		],
+		"credit": [3],
+		"SBC": ["CER", "ESI", "STAS"],
+		"SBC_type": "full"
+	},
+	"CSE316": {
+		"major": "CSE",
+		"number": 316,
+		"title": "Fundamentals of Software Development",
+		"prereq": ["C or higher in CSE 216 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": ["ESI", "EXP+", "SBS+", "STEM+"],
+		"SBC_type": "partial"
+	},
+	"CSE320": {
+		"major": "CSE",
+		"number": 320,
+		"title": "Systems Fundamentals II",
+		"prereq": ["C or higher: CSE 220 and CSE major."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE323": {
+		"major": "CSE",
+		"number": 323,
+		"title": "Human-Computer Interaction",
+		"prereq": ["CSE 214 or CSE 230 or CSE 260 or ISE 208"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE325": {
+		"major": "CSE",
+		"number": 325,
+		"title": "Computers and Sculpture",
+		"prereq": ["CSE 110 or CSE 101 or CSE 114"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE327": {
+		"major": "CSE",
+		"number": 327,
+		"title": "Fundamentals of Computer Vision",
+		"prereq": [
+			"CSE 214 or CSE 230 or CSE 260",
+			"AMS 210 or MAT 211",
+			"CSE or ISE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE328": {
+		"major": "CSE",
+		"number": 328,
+		"title": "Fundamentals of Computer Graphics",
+		"prereq": [
+			"C or higher: CSE 216 or CSE 219 or CSE 260",
+			"CSE 220",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE331": {
+		"major": "CSE",
+		"number": 331,
+		"title": "Computer Security Fundamentals",
+		"prereq": ["CSE 220", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE332": {
+		"major": "CSE",
+		"number": 332,
+		"title": "Introduction to Visualization",
+		"prereq": [
+			"CSE 214 or CSE 260",
+			"MAT 211 or AMS 210",
+			"AMS 110 or AMS 310",
+			"CSE or ISE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE333": {
+		"major": "CSE",
+		"number": 333,
+		"title": "User Interface Development",
+		"prereq": ["CSE 214 or CSE 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE334": {
+		"major": "CSE",
+		"number": 334,
+		"title": "Introduction to Multimedia Systems",
+		"prereq": ["U2, U3 or U4 standing", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE336": {
+		"major": "CSE",
+		"number": 336,
+		"title": "Internet Programming",
+		"prereq": ["C or higher in CSE 216 or CSE 219 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE337": {
+		"major": "CSE",
+		"number": 337,
+		"title": "Scripting Languages",
+		"prereq": [
+			"CSE 114 or CSE 160 or ISE 208",
+			"CSE or ISE major",
+			"U3 or U4 standing"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE350": {
+		"major": "CSE",
+		"number": 350,
+		"title": "Theory of Computation",
+		"prereq": [
+			"CSE 150 or CSE 215",
+			"AMS 210 or MAT 211",
+			"Computer Science Honors Program or the Honors College or the WISE Honors Program or University Scholars."
+		],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE351": {
+		"major": "CSE",
+		"number": 351,
+		"title": "Introduction to Data Science",
+		"prereq": ["CSE 214 or CSE 260", "AMS 310", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE352": {
+		"major": "CSE",
+		"number": 352,
+		"title": "Artificial Intelligence",
+		"prereq": ["C or higher in CSE 216 or CSE 219 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE353": {
+		"major": "CSE",
+		"number": 353,
+		"title": "Machine Learning",
+		"prereq": [
+			"CSE 216 or CSE 219 or CSE 260",
+			"CSE major",
+			"AMS 310 or AMS 311 or AMS 312"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE354": {
+		"major": "CSE",
+		"number": 354,
+		"title": "Natural Language Processing",
+		"prereq": ["CSE 216 or CSE 219 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE355": {
+		"major": "CSE",
+		"number": 355,
+		"title": "Computational Geometry",
+		"prereq": ["AMS 301", "programming knowledge of C or C++ or Java"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE356": {
+		"major": "CSE",
+		"number": 356,
+		"title": "Cloud Computing",
+		"prereq": [
+			"C or higher: CSE 216 or 219 or 260",
+			"CSE 220",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE357": {
+		"major": "CSE",
+		"number": 357,
+		"title": "Statistical Methods for Data Science",
+		"prereq": [
+			"C or higher in CSE 216 or CSE 219 or CSE 260",
+			"AMS 310",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE360": {
+		"major": "CSE",
+		"number": 360,
+		"title": "Software Security",
+		"prereq": ["CSE 331", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE361": {
+		"major": "CSE",
+		"number": 361,
+		"title": "Web Security",
+		"prereq": ["CSE 331", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE362": {
+		"major": "CSE",
+		"number": 362,
+		"title": "Mobile Security",
+		"prereq": ["CSE 331", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE363": {
+		"major": "CSE",
+		"number": 363,
+		"title": "Offensive Security",
+		"prereq": ["CSE 331", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE364": {
+		"major": "CSE",
+		"number": 364,
+		"title": "Advanced Multimedia Techniques",
+		"prereq": ["CSE/ISE 334"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE366": {
+		"major": "CSE",
+		"number": 366,
+		"title": "Introduction to Virtual Reality",
+		"prereq": ["CSE 328 or CSE/ISE 332", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE370": {
+		"major": "CSE",
+		"number": 370,
+		"title": "Wireless and Mobile Networking",
+		"prereq": ["CSE 310", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE371": {
+		"major": "CSE",
+		"number": 371,
+		"title": "Logic",
+		"prereq": ["CSE 150 or CSE 215 or MAT 200 or MAT 250"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE373": {
+		"major": "CSE",
+		"number": 373,
+		"title": "Analysis of Algorithms",
+		"prereq": ["C or higher in MAT 211 or AMS 210", "CSE 214 or CSE 260"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE376": {
+		"major": "CSE",
+		"number": 376,
+		"title": "Advanced Systems Programming in UNIX/C",
+		"prereq": [
+			"C or higher: CSE 216 or CSE 219 or 260",
+			"CSE 320",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE377": {
+		"major": "CSE",
+		"number": 377,
+		"title": "Introduction to Medical Imaging",
+		"prereq": ["AMS 161 or MAT 127 or 132 or 142", "AMS 210 or MAT 211"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE378": {
+		"major": "CSE",
+		"number": 378,
+		"title": "Introduction to Robotics",
+		"prereq": [
+			"AMS 161 or MAT 127 or 132 or 142",
+			"AMS 210 or MAT 211 or MEC 262"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE380": {
+		"major": "CSE",
+		"number": 380,
+		"title": "2D Game Programming",
+		"prereq": ["CSE 216 or CSE 219 or CSE 220 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE381": {
+		"major": "CSE",
+		"number": 381,
+		"title": "3D Game Programming",
+		"prereq": ["CSE 216 or CSE 219 or CSE 220 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE385": {
+		"major": "CSE",
+		"number": 385,
+		"title": "Analysis of Algorithms",
+		"prereq": [
+			"CSE 260 or CSE 214",
+			"AMS 210 or MAT 211",
+			"Computer Science Honors Program or the Honors College or the WISE Honors Program or University Scholars."
+		],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE390": {
+		"major": "CSE",
+		"number": 390,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE391": {
+		"major": "CSE",
+		"number": 391,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE392": {
+		"major": "CSE",
+		"number": 392,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE393": {
+		"major": "CSE",
+		"number": 393,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE394": {
+		"major": "CSE",
+		"number": 394,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE416": {
+		"major": "CSE",
+		"number": 416,
+		"title": "Software Engineering",
+		"prereq": ["C or higher in CSE 316", "U4 standing", "CSE major."],
+		"credit": [3],
+		"SBC": ["ESI", "EXP+", "SBS+", "STEM+"],
+		"SBC_type": "partial"
+	},
+	"CSE475": {
+		"major": "CSE",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": [
+			"U3 or U4 standing as an undergraduate CEAS major",
+			"a minimum g.p.a. of 3.00 in all Stony Brook courses",
+			"grade of B or better in the course in which the student is to assist and permission of department."
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"CSE487": {
+		"major": "CSE",
+		"number": 487,
+		"title": "Research in Computer Science",
+		"prereq": ["Permission of instructor and department"],
+		"credit": [0, 6],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE488": {
+		"major": "CSE",
+		"number": 488,
+		"title": "Internship in Computer Science",
+		"prereq": ["CSE major, U3 or U4 standing", "permission of department"],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"CSE495": {
+		"major": "CSE",
+		"number": 495,
+		"title": "Senior Honors Research Project I",
+		"prereq": ["Admission to the Computer Science Honors Program"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE496": {
+		"major": "CSE",
+		"number": 496,
+		"title": "Senior Honors Research Project II",
+		"prereq": ["CSE 495"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	}
+}

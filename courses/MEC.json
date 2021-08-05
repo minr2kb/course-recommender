@@ -1,0 +1,447 @@
+{
+	"MEC100": {
+		"major": "MEC",
+		"number": 100,
+		"title": "Introduction to Mechanical Engineering",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC101": {
+		"major": "MEC",
+		"number": 101,
+		"title": "Freshman Design Innovation",
+		"prereq": [
+			"AMS 151 or MAT 125 or MAT 131 or MAT 141 or MPE level 6 or greater and PHY 125 or PHY 131 or PHY 141"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC102": {
+		"major": "MEC",
+		"number": 102,
+		"title": "Engineering Computing and Problem Solving",
+		"prereq": [
+			"Level 3 or higher on the mathematics placement examination"
+		],
+		"credit": [2],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC104": {
+		"major": "MEC",
+		"number": 104,
+		"title": "Practical Science of Things",
+		"prereq": [
+			"Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS"
+		],
+		"credit": [3],
+		"SBC": ["SNW", "TECH"],
+		"SBC_type": "full"
+	},
+	"MEC105": {
+		"major": "MEC",
+		"number": 105,
+		"title": "Everyday Science and Engineering",
+		"prereq": [
+			"Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS"
+		],
+		"credit": [3],
+		"SBC": ["SNW", "TECH"],
+		"SBC_type": "full"
+	},
+	"MEC203": {
+		"major": "MEC",
+		"number": 203,
+		"title": "Engineering Graphics and CAD",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC220": {
+		"major": "MEC",
+		"number": 220,
+		"title": "Practical Electronics for Mechanical Engineers",
+		"prereq": ["PHY127, PHY132, or PHY142"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC225": {
+		"major": "MEC",
+		"number": 225,
+		"title": "Fundamentals of Machining Practices",
+		"prereq": ["MEC 203", "MEC major or permission of instructor"],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC226": {
+		"major": "MEC",
+		"number": 226,
+		"title": "Modern Machining Practices",
+		"prereq": ["MEC 203", "MEC major or permission of instructor"],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC260": {
+		"major": "MEC",
+		"number": 260,
+		"title": "Engineering Statics",
+		"prereq": ["PHY 131 or 141 or 125"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC262": {
+		"major": "MEC",
+		"number": 262,
+		"title": "Engineering Dynamics",
+		"prereq": ["A grade of \"C\" or better in MEC 260"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC280": {
+		"major": "MEC",
+		"number": 280,
+		"title": "Pollution and Human Health",
+		"prereq": ["one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"MEC300": {
+		"major": "MEC",
+		"number": 300,
+		"title": "Professional Conduct for Engineers",
+		"prereq": ["WRT 102", "MEC Major", "U3 or U4"],
+		"credit": [2],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC301": {
+		"major": "MEC",
+		"number": 301,
+		"title": "Thermodynamics",
+		"prereq": [
+			"AMS 261 or MAT 203",
+			"PHY 125 or 131 or 141",
+			"CHE 131",
+			"MEC Major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC305": {
+		"major": "MEC",
+		"number": 305,
+		"title": "Heat and Mass Transfer",
+		"prereq": [
+			"MEC 301 and 364",
+			"MEC 102, or ESG 111, or ESE 124, or CSE 114 or 130 or BME 120"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC310": {
+		"major": "MEC",
+		"number": 310,
+		"title": "Introduction to Machine Design",
+		"prereq": [
+			"MEC 102 or CSE 114 or 130 or ESG 111 or BME 120 or ESE 124",
+			"C or better in MEC 262 (or BME 260 for BME majors)",
+			"MEC 203 (ESG 316 for ESG majors)"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC316": {
+		"major": "MEC",
+		"number": 316,
+		"title": "Instrumentation and Solid Mechanics Laboratory",
+		"prereq": ["MEC major", "C or better in MEC 363", "PHY 134"],
+		"credit": [2],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"MEC317": {
+		"major": "MEC",
+		"number": 317,
+		"title": "Thermal Sciences and Fluid Mechanics Laboratory",
+		"prereq": ["MEC major", "PHY 134", "U3 or U4 standing"],
+		"credit": [2],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"MEC320": {
+		"major": "MEC",
+		"number": 320,
+		"title": "Numerical Methods in Engineering Design and Analysis",
+		"prereq": [
+			"MEC 102 or CSE 114 or CSE 130 or ESG 111 or ESE 124 or BME 120",
+			"AMS 261 or MAT 203",
+			"AMS 361 or MAT 303"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC325": {
+		"major": "MEC",
+		"number": 325,
+		"title": "Manufacturing Processes",
+		"prereq": ["MEC 203", "MEC major or permission of the department"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC363": {
+		"major": "MEC",
+		"number": 363,
+		"title": "Mechanics of Solids",
+		"prereq": ["A grade of \"C\" or better in MEC 260 or BME 260"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC364": {
+		"major": "MEC",
+		"number": 364,
+		"title": "Introduction to Fluid Mechanics",
+		"prereq": ["PHY 126 or PHY 131", "MEC 262", "MEC Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC393": {
+		"major": "MEC",
+		"number": 393,
+		"title": "Engineering Fluid Mechanics",
+		"prereq": ["MEC 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC398": {
+		"major": "MEC",
+		"number": 398,
+		"title": "Thermodynamics II",
+		"prereq": ["MEC 301 and 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC402": {
+		"major": "MEC",
+		"number": 402,
+		"title": "Mechanical Vibrations",
+		"prereq": ["MEC 262 and 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC410": {
+		"major": "MEC",
+		"number": 410,
+		"title": "Design of Machine Elements",
+		"prereq": ["MEC 310 and 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC411": {
+		"major": "MEC",
+		"number": 411,
+		"title": "Control System Analysis and Design",
+		"prereq": ["MEC 220", "MEC 262", "AMS 361 or MAT 303"],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC422": {
+		"major": "MEC",
+		"number": 422,
+		"title": "Thermal System Design",
+		"prereq": ["MEC 305"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC423": {
+		"major": "MEC",
+		"number": 423,
+		"title": "Internal Combustion Engines",
+		"prereq": ["MEC 305"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC440": {
+		"major": "MEC",
+		"number": 440,
+		"title": "Mechanical Engineering Design I",
+		"prereq": [
+			"MEC 225 or 226",
+			"MEC 310",
+			"MEC 320 and 325",
+			"MEC major",
+			"U4 standing"
+		],
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+", "SBS+", "SPK", "STEM+", "WRTD"],
+		"SBC_type": "partial"
+	},
+	"MEC441": {
+		"major": "MEC",
+		"number": 441,
+		"title": "Mechanical Engineering Design II",
+		"prereq": ["MEC 440"],
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+", "SBS+", "SPK", "STEM+", "WRTD"],
+		"SBC_type": "partial"
+	},
+	"MEC442": {
+		"major": "MEC",
+		"number": 442,
+		"title": "Introduction to Experimental Stress Analysis",
+		"prereq": ["MEC 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC450": {
+		"major": "MEC",
+		"number": 450,
+		"title": "Mechatronics",
+		"prereq": ["MEC 310", "316"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC455": {
+		"major": "MEC",
+		"number": 455,
+		"title": "Applied Stress Analysis",
+		"prereq": ["MEC 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC456": {
+		"major": "MEC",
+		"number": 456,
+		"title": "Introduction to Engineering Mechanics of Composites",
+		"prereq": ["MEC 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC457": {
+		"major": "MEC",
+		"number": 457,
+		"title": "Engineering Composites Fabrication and Characterization",
+		"prereq": ["MEC 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC464": {
+		"major": "MEC",
+		"number": 464,
+		"title": "Fundamentals of Aerodynamics",
+		"prereq": ["MEC 305", "MEC 310", "MEC 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC465": {
+		"major": "MEC",
+		"number": 465,
+		"title": "Aerospace Propulsion",
+		"prereq": ["MEC 305", "MEC 310", "MEC 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC470": {
+		"major": "MEC",
+		"number": 470,
+		"title": "Introduction to Tribology",
+		"prereq": ["MEC 363 and 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC475": {
+		"major": "MEC",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": [
+			"U4 standing",
+			"a minimum g.p.a. of 3.00 in all Stony Brook courses and the grade of B or better in the course in which the student is to assist",
+			"permission of department"
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"MEC488": {
+		"major": "MEC",
+		"number": 488,
+		"title": "Mechanical Engineering Internship",
+		"prereq": ["Permission of undergraduate program director"],
+		"credit": [3, 9],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"MEC491": {
+		"major": "MEC",
+		"number": 491,
+		"title": "Topics in Mechanical Engineering",
+		"prereq": [
+			"U3 or U4 standing in a B.E. degree major",
+			"permission of department (course prerequisites vary with topic)"
+		],
+		"credit": [1, 4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC492": {
+		"major": "MEC",
+		"number": 492,
+		"title": "Topics in Mechanical Engineering",
+		"prereq": [
+			"U3 or U4 standing in a B.E. degree major",
+			"permission of department (course prerequisites vary with topic)"
+		],
+		"credit": [1, 4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC495": {
+		"major": "MEC",
+		"number": 495,
+		"title": "Professional Engineering Seminar",
+		"prereq": ["CEAS major", "U4 standing"],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC499": {
+		"major": "MEC",
+		"number": 499,
+		"title": "Research in Mechanical Engineering",
+		"prereq": ["U3 or U4 standing", "permission of department"],
+		"credit": [0, 3],
+		"SBC": [],
+		"SBC_type": ""
+	}
+}

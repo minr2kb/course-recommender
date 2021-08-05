@@ -1,0 +1,466 @@
+{
+	"EST100": {
+		"major": "EST",
+		"number": 100,
+		"title": "Designing, Producing & Presenting Multimedia Projects",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST102": {
+		"major": "EST",
+		"number": 102,
+		"title": "Weather and Climate",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["SNW"],
+		"SBC_type": "full"
+	},
+	"EST104": {
+		"major": "EST",
+		"number": 104,
+		"title": "Projects in Technology and Society",
+		"prereq": ["Permission of department"],
+		"credit": [1, 3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST105": {
+		"major": "EST",
+		"number": 105,
+		"title": "The Digital Generation",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST106": {
+		"major": "EST",
+		"number": 106,
+		"title": "The Digital Generation",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST192": {
+		"major": "EST",
+		"number": 192,
+		"title": "Introduction to Modern Engineering",
+		"prereq": [
+			"Course is for students without prior engineering  experience, permission of the department required"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST194": {
+		"major": "EST",
+		"number": 194,
+		"title": "Decision-making",
+		"prereq": ["TSM major or permission of instructor or department."],
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"EST200": {
+		"major": "EST",
+		"number": 200,
+		"title": "Cultural Technologies and Society",
+		"prereq": ["One DEC E or SNW course", "WRT 102"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST201": {
+		"major": "EST",
+		"number": 201,
+		"title": "Technological Trends in Society",
+		"prereq": ["one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST202": {
+		"major": "EST",
+		"number": 202,
+		"title": "Introduction to Science, Technology, and Society Studies",
+		"prereq": ["TSM major or permission of instructor or department."],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST203": {
+		"major": "EST",
+		"number": 203,
+		"title": "Technology in the City",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST204": {
+		"major": "EST",
+		"number": 204,
+		"title": "Modern Digital Technology and Innovation",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST205": {
+		"major": "EST",
+		"number": 205,
+		"title": "Introduction to Technological Design",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST207": {
+		"major": "EST",
+		"number": 207,
+		"title": "Interaction Design",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST208": {
+		"major": "EST",
+		"number": 208,
+		"title": "Virtual Distance Foundations",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST209": {
+		"major": "EST",
+		"number": 209,
+		"title": "Introduction to Italian Design",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST210": {
+		"major": "EST",
+		"number": 210,
+		"title": "Learning to Learn New Technologies",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST221": {
+		"major": "EST",
+		"number": 221,
+		"title": "Multimedia for Online Content Platforms",
+		"prereq": ["EST 100"],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST230": {
+		"major": "EST",
+		"number": 230,
+		"title": "Information and Communications Technology for Sustainable Development",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST240": {
+		"major": "EST",
+		"number": 240,
+		"title": "Visual Rhetoric and Information Technology",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST280": {
+		"major": "EST",
+		"number": 280,
+		"title": "Fundamentals of Industrial Engineering",
+		"prereq": [
+			"C or higher in AMS 151 or MAT 131 or 141, or level 7 on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST291": {
+		"major": "EST",
+		"number": 291,
+		"title": "Energy, Environment, and People",
+		"prereq": [
+			"one D.E.C. E or SNW course (except those designated ANP)",
+			"any AMS or MAT course"
+		],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST304": {
+		"major": "EST",
+		"number": 304,
+		"title": "Communication for Engineers and Scientists",
+		"prereq": ["WRT 102", "TSM major or permission of department."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST305": {
+		"major": "EST",
+		"number": 305,
+		"title": "Applications Software for Information Management",
+		"prereq": ["EST 100 or CSE 101"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST306": {
+		"major": "EST",
+		"number": 306,
+		"title": "Cloud Computing Applications",
+		"prereq": ["EST 305"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST310": {
+		"major": "EST",
+		"number": 310,
+		"title": "Design of Computer Games",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST320": {
+		"major": "EST",
+		"number": 320,
+		"title": "Communication Technology Systems",
+		"prereq": ["MAT 123", "one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST323": {
+		"major": "EST",
+		"number": 323,
+		"title": "Human-Computer Interaction",
+		"prereq": ["CSE 214 or CSE 230 or CSE 260 or ISE 208"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST325": {
+		"major": "EST",
+		"number": 325,
+		"title": "Technology in the Workplace",
+		"prereq": ["one D.E.C. category E or SNW course"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST326": {
+		"major": "EST",
+		"number": 326,
+		"title": "Management for Engineers",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST327": {
+		"major": "EST",
+		"number": 327,
+		"title": "Marketing for Engineers",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST330": {
+		"major": "EST",
+		"number": 330,
+		"title": "Natural Disasters",
+		"prereq": ["U3 or U4 standing", "one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST331": {
+		"major": "EST",
+		"number": 331,
+		"title": "Engineering Ethics",
+		"prereq": ["TSM major or permission of instructor or department."],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST339": {
+		"major": "EST",
+		"number": 339,
+		"title": "Benevolent Computing",
+		"prereq": ["U3 or U4 standing", "ISE or TSM major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST341": {
+		"major": "EST",
+		"number": 341,
+		"title": "Waste Treatment Technologies",
+		"prereq": ["EST 202 or MAT 123 and one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST344": {
+		"major": "EST",
+		"number": 344,
+		"title": "Technical Writing",
+		"prereq": ["EST 304"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST364": {
+		"major": "EST",
+		"number": 364,
+		"title": "How to Build a Startup",
+		"prereq": [
+			"completion of WRT 102",
+			"DEC Category C or QPS",
+			"U3 or U4 standing"
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"EST371": {
+		"major": "EST",
+		"number": 371,
+		"title": "Data Science Management",
+		"prereq": [
+			"AMS 161 or MAT 132 or MAT 127",
+			"CSE 114",
+			"U3 or U4 standing"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST372": {
+		"major": "EST",
+		"number": 372,
+		"title": "The Mobile Revolution in Development",
+		"prereq": [
+			"AMS 161 or MAT 132 or MAT 127",
+			"EST 320",
+			"U3 or U4 standing"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST388": {
+		"major": "EST",
+		"number": 388,
+		"title": "Special Topics in Technological Systems Management",
+		"prereq": ["TSM major or permission of instructor or department."],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST389": {
+		"major": "EST",
+		"number": 389,
+		"title": "Special Topics in Technological Systems Management",
+		"prereq": ["TSM major or permission of instructor or department."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST391": {
+		"major": "EST",
+		"number": 391,
+		"title": "Technology Assessment",
+		"prereq": ["MAT 127 or 132 or 142 or 171 or AMS 161", "U3 or U4"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST392": {
+		"major": "EST",
+		"number": 392,
+		"title": "Engineering Economics",
+		"prereq": ["MAT 127 or 132 or 142 or 171 or AMS 161"],
+		"credit": [3],
+		"SBC": ["SBS"],
+		"SBC_type": "full"
+	},
+	"EST393": {
+		"major": "EST",
+		"number": 393,
+		"title": "Project Management",
+		"prereq": ["MAT 127 or 132 or 142 or 171 or AMS 161", "U3 or U4"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST440": {
+		"major": "EST",
+		"number": 440,
+		"title": "Interdisciplinary Research Methods",
+		"prereq": ["EST 391and TSM major"],
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+", "SBS+", "SPK", "STEM+", "WRTD"],
+		"SBC_type": "partial"
+	},
+	"EST441": {
+		"major": "EST",
+		"number": 441,
+		"title": "Interdisciplinary Senior Project",
+		"prereq": ["EST 440"],
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+", "SBS+", "SPK", "STEM+", "WRTD"],
+		"SBC_type": "partial"
+	},
+	"EST475": {
+		"major": "EST",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": [
+			"U4 standing",
+			"a minimum g.p.a. of 3.00 in all Stony Brook courses and a grade of B or better in the course in which the student is to assist",
+			"permission of department"
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"EST488": {
+		"major": "EST",
+		"number": 488,
+		"title": "Internship in Technology and Society",
+		"prereq": ["EST Major: Permission of the department"],
+		"credit": [1, 3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"EST499": {
+		"major": "EST",
+		"number": 499,
+		"title": "Research in Technology and Society",
+		"prereq": ["Permission of instructor"],
+		"credit": [0, 3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	}
+}

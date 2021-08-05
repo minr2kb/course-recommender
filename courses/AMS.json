@@ -1,0 +1,397 @@
+{
+	"AMS102": {
+		"major": "AMS",
+		"number": 102,
+		"title": "Elements of Statistics",
+		"prereq": [
+			"Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS",
+			"Non AMS majors only"
+		],
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"AMS103": {
+		"major": "AMS",
+		"number": 103,
+		"title": "Applied Mathematics in Modern Technology",
+		"prereq": [
+			"Level 3 or higher on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": ["QPS", "TECH"],
+		"SBC_type": "full"
+	},
+	"AMS104": {
+		"major": "AMS",
+		"number": 104,
+		"title": "Spreadsheet Technology and Applications",
+		"prereq": [
+			"Level 2+ or higher on the mathematics placement examination or MAT 123 or higher"
+		],
+		"credit": [3],
+		"SBC": ["QPS", "TECH"],
+		"SBC_type": "full"
+	},
+	"AMS105": {
+		"major": "AMS",
+		"number": 105,
+		"title": "Introduction to Business Statistics",
+		"prereq": ["BUS Maj/Min, CME Major, or ISE Major."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS110": {
+		"major": "AMS",
+		"number": 110,
+		"title": "Probability and Statistics in the Life Sciences",
+		"prereq": ["AMS 151 or MAT 125 or 131 or 141."],
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"AMS151": {
+		"major": "AMS",
+		"number": 151,
+		"title": "Applied Calculus I",
+		"prereq": [
+			"B or higher in MAT 123 or level 5 on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"AMS161": {
+		"major": "AMS",
+		"number": 161,
+		"title": "Applied Calculus II",
+		"prereq": [
+			"C or higher in AMS 151 or MAT 131 or 141, or level 7 on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"AMS210": {
+		"major": "AMS",
+		"number": 210,
+		"title": "Applied Linear Algebra",
+		"prereq": [
+			"AMS 151 or MAT 131 or 141 or corequisite MAT 126 or level 7 or higher on the mathematics placement exam"
+		],
+		"credit": [3],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS261": {
+		"major": "AMS",
+		"number": 261,
+		"title": "Applied Calculus III",
+		"prereq": ["AMS 161 or MAT 127 or 132 or 142 or MPE level 9"],
+		"credit": [4],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS300": {
+		"major": "AMS",
+		"number": 300,
+		"title": "Writing in Applied Mathematics",
+		"prereq": ["WRT 102", "AMS major", "U3 or U4 standing"],
+		"credit": [1],
+		"SBC": ["SPK", "WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS301": {
+		"major": "AMS",
+		"number": 301,
+		"title": "Finite Mathematical Structures",
+		"prereq": ["AMS 210 or MAT 211 or AMS 361 or MAT 303"],
+		"credit": [3],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS303": {
+		"major": "AMS",
+		"number": 303,
+		"title": "Graph Theory",
+		"prereq": ["AMS 301"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS310": {
+		"major": "AMS",
+		"number": 310,
+		"title": "Survey of Probability and Statistics",
+		"prereq": ["AMS 161 or MAT 132 or MAT 126 or MAT 142"],
+		"credit": [3],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS311": {
+		"major": "AMS",
+		"number": 311,
+		"title": "Probability Theory",
+		"prereq": ["AMS 301 and 310 or permission of instructor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS315": {
+		"major": "AMS",
+		"number": 315,
+		"title": "Data Analysis",
+		"prereq": ["AMS 310"],
+		"credit": [3],
+		"SBC": ["CER", "ESI"],
+		"SBC_type": "full"
+	},
+	"AMS316": {
+		"major": "AMS",
+		"number": 316,
+		"title": "Introduction to Time Series Analysis",
+		"prereq": ["AMS 311 and AMS 315"],
+		"credit": [3],
+		"SBC": ["SBS+"],
+		"SBC_type": "full"
+	},
+	"AMS317": {
+		"major": "AMS",
+		"number": 317,
+		"title": "Introduction to Linear Regression Analysis",
+		"prereq": ["AMS 315"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS318": {
+		"major": "AMS",
+		"number": 318,
+		"title": "Financial Mathematics",
+		"prereq": ["AMS 310"],
+		"credit": [3],
+		"SBC": ["WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS320": {
+		"major": "AMS",
+		"number": 320,
+		"title": "Introduction to Quantitative Finance",
+		"prereq": ["AMS 311"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS325": {
+		"major": "AMS",
+		"number": 325,
+		"title": "Computing and Programming Fundamentals in Applied Mathematics and Statistics",
+		"prereq": ["AMS 210 or MAT 211", "AMS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS326": {
+		"major": "AMS",
+		"number": 326,
+		"title": "Numerical Analysis",
+		"prereq": [
+			"CSE 101",
+			"AMS 161",
+			"basic skills in using a high-level programming language (C, C++, or Java)."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS332": {
+		"major": "AMS",
+		"number": 332,
+		"title": "Computational Modeling of Physiological Systems",
+		"prereq": [
+			"MAT 127 or MAT 132 or higher and any one of the following: BIO 202 or BIO 203 or CHE 132 or CHE 331 or PHY 127 or PHY 132"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS333": {
+		"major": "AMS",
+		"number": 333,
+		"title": "Mathematical Biology",
+		"prereq": [
+			"AMS 161 or MAT 132",
+			"AMS 210 or MAT 211",
+			"U3 or U4 standing",
+			"or permission of the instructor"
+		],
+		"credit": [3],
+		"SBC": ["EXP+", "WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS335": {
+		"major": "AMS",
+		"number": 335,
+		"title": "Game Theory",
+		"prereq": [
+			"MAT 126 or 131 or 141 or AMS 151",
+			"C or higher in ECO 303"
+		],
+		"credit": [3],
+		"SBC": ["SBS+"],
+		"SBC_type": "full"
+	},
+	"AMS341": {
+		"major": "AMS",
+		"number": 341,
+		"title": "Operations Research I",
+		"prereq": ["AMS 210 or MAT 211 or MAT 307 and MAT 308"],
+		"credit": [3],
+		"SBC": ["SBS+"],
+		"SBC_type": "full"
+	},
+	"AMS342": {
+		"major": "AMS",
+		"number": 342,
+		"title": "Operations Research II",
+		"prereq": ["AMS 210 or MAT 211", "AMS 311"],
+		"credit": [3],
+		"SBC": ["SBS+"],
+		"SBC_type": "full"
+	},
+	"AMS345": {
+		"major": "AMS",
+		"number": 345,
+		"title": "Computational Geometry",
+		"prereq": ["AMS 301", "programming knowledge of C or C++ or Java"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS351": {
+		"major": "AMS",
+		"number": 351,
+		"title": "Applied Algebra",
+		"prereq": ["AMS 210 or MAT 211"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS361": {
+		"major": "AMS",
+		"number": 361,
+		"title": "Applied Calculus IV",
+		"prereq": ["AMS 161 or MAT 127 or 132 or 142 or MPE level 9"],
+		"credit": [4],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS380": {
+		"major": "AMS",
+		"number": 380,
+		"title": "Data Mining",
+		"prereq": ["AMS 311"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS394": {
+		"major": "AMS",
+		"number": 394,
+		"title": "Statistical Laboratory",
+		"prereq": ["AMS 310 or AMS 315"],
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+"],
+		"SBC_type": "full"
+	},
+	"AMS410": {
+		"major": "AMS",
+		"number": 410,
+		"title": "Actuarial Mathematics",
+		"prereq": ["AMS 261 or MAT 203 or 205", "AMS 310", "AMS 311 or 315"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS412": {
+		"major": "AMS",
+		"number": 412,
+		"title": "Mathematical Statistics",
+		"prereq": ["AMS 311"],
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+"],
+		"SBC_type": "full"
+	},
+	"AMS441": {
+		"major": "AMS",
+		"number": 441,
+		"title": "Business Enterprise",
+		"prereq": ["Junior or Senior Standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS458": {
+		"major": "AMS",
+		"number": 458,
+		"title": "Speak Effectively Before an Audience",
+		"prereq": ["WRT 102 or equivalent", "permission of the instructor"],
+		"credit": [0],
+		"SBC": ["SPK"],
+		"SBC_type": "full"
+	},
+	"AMS459": {
+		"major": "AMS",
+		"number": 459,
+		"title": "Write Effectively in Applied Mathematics",
+		"prereq": ["WRT 102", "permission of the instructor"],
+		"credit": [0],
+		"SBC": ["WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS475": {
+		"major": "AMS",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": [
+			"U4 standing as an undergraduate major within the college",
+			"a minimum g.p.a. of 3.00 in all Stony Brook courses and the grade of B or better in the course in which the student is to assist",
+			"permission of department"
+		],
+		"credit": [3],
+		"SBC": ["EXP+", "SPK"],
+		"SBC_type": "full"
+	},
+	"AMS476": {
+		"major": "AMS",
+		"number": 476,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": [
+			"U4 standing as an undergraduate major within the college",
+			"a minimum g.p.a. of 3.00 in all Stony Brook courses and the grade of B or better in the course in which the student is to assist",
+			"permission of department"
+		],
+		"credit": [3],
+		"SBC": ["EXP+", "SPK"],
+		"SBC_type": "full"
+	},
+	"AMS487": {
+		"major": "AMS",
+		"number": 487,
+		"title": "Research in Applied Mathematics",
+		"prereq": ["Permission of instructor and department"],
+		"credit": [0, 3],
+		"SBC": ["EXP+", "WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS492": {
+		"major": "AMS",
+		"number": 492,
+		"title": "Topics in Applied Mathematics",
+		"prereq": ["Permission of instructor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	}
+}

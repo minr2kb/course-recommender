@@ -1,0 +1,3689 @@
+{
+	"AMS151": {
+		"major": "AMS",
+		"number": 151,
+		"title": "Applied Calculus I",
+		"prereq": {
+			"majorOnly": "",
+			"higher": ["B", "MAT123"],
+			"grade": 1,
+			"mathLevel": 5,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"AMS161": {
+		"major": "AMS",
+		"number": 161,
+		"title": "Applied Calculus II",
+		"prereq": {
+			"majorOnly": "",
+			"higher": ["C", "AMS151", "MAT123", "MAT131", "MAT141"],
+			"grade": 1,
+			"mathLevel": 7,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"AMS210": {
+		"major": "AMS",
+		"number": 210,
+		"title": "Applied Linear Algebra",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 7,
+			"permission": false,
+			"course": [["AMS151", "MAT131", "MAT141"]]
+		},
+		"credit": [3],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS261": {
+		"major": "AMS",
+		"number": 261,
+		"title": "Applied Calculus III",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 9,
+			"permission": false,
+			"course": [["AMS161", "MAT127", "MAT132", "MAT142"]]
+		},
+		"credit": [4],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS301": {
+		"major": "AMS",
+		"number": 301,
+		"title": "Finite Mathematical Structures",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["AMS210", "AMS361", "MAT211", "MAT303"]]
+		},
+		"credit": [3],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS303": {
+		"major": "AMS",
+		"number": 303,
+		"title": "Graph Theory",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["AMS301"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS310": {
+		"major": "AMS",
+		"number": 310,
+		"title": "Survey of Probability and Statistics",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["AMS161", "MAT132", "MAT126", "MAT142"]]
+		},
+		"credit": [3],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS311": {
+		"major": "AMS",
+		"number": 311,
+		"title": "Probability Theory",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": ["AMS301", "AMS310"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS315": {
+		"major": "AMS",
+		"number": 315,
+		"title": "Data Analysis",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["AMS310"]
+		},
+		"credit": [3],
+		"SBC": ["CER", "ESI"],
+		"SBC_type": "full"
+	},
+	"AMS326": {
+		"major": "AMS",
+		"number": 326,
+		"title": "Numerical Analysis",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["CSE101", "AMS161"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS475": {
+		"major": "AMS",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["EXP+", "SPK"],
+		"SBC_type": "full"
+	},
+	"AMS476": {
+		"major": "AMS",
+		"number": 476,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["EXP+", "SPK"],
+		"SBC_type": "full"
+	},
+	"AMS487": {
+		"major": "AMS",
+		"number": 487,
+		"title": "Research in Applied Mathematics",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [0, 3],
+		"SBC": ["EXP+", "WRTD"],
+		"SBC_type": "full"
+	},
+	"ACC210": {
+		"major": "ACC",
+		"number": 210,
+		"title": "Financial Accounting",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS215": {
+		"major": "BUS",
+		"number": 215,
+		"title": "Introduction to Business Statistics",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["MAT122", "MAT123", "AMS151", "AMS161"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS220": {
+		"major": "BUS",
+		"number": 220,
+		"title": "Introduction to Decision Sciences",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["BUS215", ["MAT122", "MAT123", "AMS151", "AMS161"]]
+		},
+		"credit": [3],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"BUS326": {
+		"major": "BUS",
+		"number": 326,
+		"title": "Organizational Behavior",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS330": {
+		"major": "BUS",
+		"number": 330,
+		"title": "Principles of Finance",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS346": {
+		"major": "BUS",
+		"number": 346,
+		"title": "Operations Management",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["BUS215", "BUS220"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS348": {
+		"major": "BUS",
+		"number": 348,
+		"title": "Principles of Marketing",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS353": {
+		"major": "BUS",
+		"number": 353,
+		"title": "Entrepreneurship",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 4,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS359": {
+		"major": "BUS",
+		"number": 359,
+		"title": "Consumer Behavior",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS361": {
+		"major": "BUS",
+		"number": 361,
+		"title": "Retail Management",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS365": {
+		"major": "BUS",
+		"number": 365,
+		"title": "Financial Management",
+		"prereq": {
+			"majorOnly": ["BUS", "AMS"],
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["BUS330"]
+		},
+		"credit": [3],
+		"SBC": ["ESI"],
+		"SBC_type": "full"
+	},
+	"BUS447": {
+		"major": "BUS",
+		"number": 447,
+		"title": "Business Ethics",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 4,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["WRT102"]
+		},
+		"credit": [3],
+		"SBC": ["CER"],
+		"SBC_type": "full"
+	},
+	"BUS448": {
+		"major": "BUS",
+		"number": 448,
+		"title": "Marketing Strategy",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 4,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS475": {
+		"major": "BUS",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum I",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS488": {
+		"major": "BUS",
+		"number": 488,
+		"title": "Internship",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [0, 3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"CSE101": {
+		"major": "CSE",
+		"number": 101,
+		"title": "Computer Science Principles",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 3,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE102": {
+		"major": "CSE",
+		"number": 102,
+		"title": "Introduction to Web Design and Programming",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE114": {
+		"major": "CSE",
+		"number": 114,
+		"title": "Introduction to Object-Oriented Programming",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 4,
+			"permission": false,
+			"course": []
+		},
+		"credit": [4],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE214": {
+		"major": "CSE",
+		"number": 214,
+		"title": "Data Structures",
+		"prereq": {
+			"majorOnly": "",
+			"higher": ["C", "CSE114"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE215": {
+		"major": "CSE",
+		"number": 215,
+		"title": "Foundations of Computer Science",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["AMS151", "MAT125", "MAT131"]]
+		},
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE216": {
+		"major": "CSE",
+		"number": 216,
+		"title": "Programming Abstractions",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": ["C", "CSE214"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE220": {
+		"major": "CSE",
+		"number": 220,
+		"title": "Systems Fundamentals I",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": ["C", "CSE214"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE303": {
+		"major": "CSE",
+		"number": 303,
+		"title": "Introduction to the Theory of Computation",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": ["C", "CSE160", "CSE214"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["CSE151", "CSE215"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE305": {
+		"major": "CSE",
+		"number": 305,
+		"title": "Principles of Database Systems",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": ["C", "CSE216", "CSE219", "CSE260"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["ESI", "EXP+", "SBS+", "STEM+"],
+		"SBC_type": "partial"
+	},
+	"CSE312": {
+		"major": "CSE",
+		"number": 312,
+		"title": "Legal, Social, and Ethical Issues in Information Systems",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["CER", "ESI", "STAS"],
+		"SBC_type": "full"
+	},
+	"CSE316": {
+		"major": "CSE",
+		"number": 316,
+		"title": "Fundamentals of Software Development",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": ["C", "CSE216", "CSE260"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["ESI", "EXP+", "SBS+", "STEM+"],
+		"SBC_type": "partial"
+	},
+	"CSE320": {
+		"major": "CSE",
+		"number": 320,
+		"title": "Systems Fundamentals II",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": ["C", "CSE220"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE327": {
+		"major": "CSE",
+		"number": 327,
+		"title": "Fundamentals of Computer Vision",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["CSE214", "CSE230", "CSE260", "AMS210", "MAT211"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE331": {
+		"major": "CSE",
+		"number": 331,
+		"title": "Computer Security Fundamentals",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["CSE220"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE352": {
+		"major": "CSE",
+		"number": 352,
+		"title": "Artificial Intelligence",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": ["C", "CSE216", "CSE219", "CSE260"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE416": {
+		"major": "CSE",
+		"number": 416,
+		"title": "Software Engineering",
+		"prereq": {
+			"majorOnly": "CSE",
+
+			"higher": ["C", "CSE316"],
+			"grade": 4,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["ESI", "EXP+", "SBS+", "STEM+"],
+		"SBC_type": "partial"
+	},
+	"CSE475": {
+		"major": "CSE",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"CSE487": {
+		"major": "CSE",
+		"number": 487,
+		"title": "Research in Computer Science",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [0, 6],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST194": {
+		"major": "EST",
+		"number": 194,
+		"title": "Decision-making",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"EST202": {
+		"major": "EST",
+		"number": 202,
+		"title": "Introduction to Science, Technology, and Society Studies",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST204": {
+		"major": "EST",
+		"number": 204,
+		"title": "Modern Digital Technology and Innovation",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST207": {
+		"major": "EST",
+		"number": 207,
+		"title": "Interaction Design",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST230": {
+		"major": "EST",
+		"number": 230,
+		"title": "Information and Communications Technology for Sustainable Development",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST240": {
+		"major": "EST",
+		"number": 240,
+		"title": "Visual Rhetoric and Information Technology",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST304": {
+		"major": "EST",
+		"number": 304,
+		"title": "Communication for Engineers and Scientists",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": ["WRT102"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST305": {
+		"major": "EST",
+		"number": 305,
+		"title": "Applications Software for Information Management",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["EST100", "CSE101"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST310": {
+		"major": "EST",
+		"number": 310,
+		"title": "Design of Computer Games",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST320": {
+		"major": "EST",
+		"number": 320,
+		"title": "Communication Technology Systems",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["MAT123"]
+		},
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST325": {
+		"major": "EST",
+		"number": 325,
+		"title": "Technology in the Workplace",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST326": {
+		"major": "EST",
+		"number": 326,
+		"title": "Management for Engineers",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST327": {
+		"major": "EST",
+		"number": 327,
+		"title": "Marketing for Engineers",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST331": {
+		"major": "EST",
+		"number": 331,
+		"title": "Engineering Ethics",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST364": {
+		"major": "EST",
+		"number": 364,
+		"title": "How to Build a Startup",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["WRT102"]
+		},
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"EST371": {
+		"major": "EST",
+		"number": 371,
+		"title": "Data Science Management",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["CSE114", ["AMS161", "MAT132", "MAT127"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST372": {
+		"major": "EST",
+		"number": 372,
+		"title": "The Mobile Revolution in Development",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["AMS161", "MAT132", "MAT127"], "EST320"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST391": {
+		"major": "EST",
+		"number": 391,
+		"title": "Technology Assessment",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["MAT127", "MAT132", "MAT142", "MAT171", "AMS161"]]
+		},
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST392": {
+		"major": "EST",
+		"number": 392,
+		"title": "Engineering Economics",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["MAT127", "MAT132", "MAT142", "MAT171", "AMS161"]]
+		},
+		"credit": [3],
+		"SBC": ["SBS"],
+		"SBC_type": "full"
+	},
+	"EST393": {
+		"major": "EST",
+		"number": 393,
+		"title": "Project Management",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["MAT127", "MAT132", "MAT142", "MAT171", "AMS161"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST440": {
+		"major": "EST",
+		"number": 440,
+		"title": "Interdisciplinary Research Methods",
+		"prereq": {
+			"majorOnly": "TSM",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["EST391"]
+		},
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+", "SBS+", "SPK", "STEM+", "WRTD"],
+		"SBC_type": "partial"
+	},
+	"EST441": {
+		"major": "EST",
+		"number": 441,
+		"title": "Interdisciplinary Senior Project",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["EST440"]
+		},
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+", "SBS+", "SPK", "STEM+", "WRTD"],
+		"SBC_type": "partial"
+	},
+	"EST488": {
+		"major": "EST",
+		"number": 488,
+		"title": "Internship in Technology and Society",
+		"prereq": {
+			"majorOnly": "TSM",
+
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [1, 3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"EST499": {
+		"major": "EST",
+		"number": 499,
+		"title": "Research in Technology and Society",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [0, 3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"MEC101": {
+		"major": "MEC",
+		"number": 101,
+		"title": "Freshman Design Innovation",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 6,
+			"permission": false,
+			"course": [
+				["AMS151", "MAT125", "MAT131", "MAT 141"],
+				["PHY125", "PHY131", "PHY 141"]
+			]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC102": {
+		"major": "MEC",
+		"number": 102,
+		"title": "Engineering Computing and Problem Solving",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 3,
+			"permission": false,
+			"course": []
+		},
+		"credit": [2],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC203": {
+		"major": "MEC",
+		"number": 203,
+		"title": "Engineering Graphics and CAD",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC262": {
+		"major": "MEC",
+		"number": 262,
+		"title": "Engineering Dynamics",
+		"prereq": {
+			"majorOnly": "",
+			"higher": ["C", "MEC260"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC300": {
+		"major": "MEC",
+		"number": 300,
+		"title": "Professional Conduct for Engineers",
+		"prereq": {
+			"majorOnly": "MEC",
+
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["WRT102"]
+		},
+		"credit": [2],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC305": {
+		"major": "MEC",
+		"number": 305,
+		"title": "Heat and Mass Transfer",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["MEC301", "MEC364", ["MEC102", "CSE114", "CSE130"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC317": {
+		"major": "MEC",
+		"number": 317,
+		"title": "Thermal Sciences and Fluid Mechanics Laboratory",
+		"prereq": {
+			"majorOnly": "MEC",
+
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["PHY134"]
+		},
+		"credit": [2],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"MEC363": {
+		"major": "MEC",
+		"number": 363,
+		"title": "Mechanics of Solids",
+		"prereq": {
+			"majorOnly": "",
+			"higher": ["C", "MEC260"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC410": {
+		"major": "MEC",
+		"number": 410,
+		"title": "Design of Machine Elements",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["MEC310", "MEC363"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC411": {
+		"major": "MEC",
+		"number": 411,
+		"title": "Control System Analysis and Design",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["MEC220", "MEC262", ["AMS361", "MAT303"]]
+		},
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC440": {
+		"major": "MEC",
+		"number": 440,
+		"title": "Mechanical Engineering Design I",
+		"prereq": {
+			"majorOnly": "MEC",
+
+			"higher": [],
+			"grade": 4,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["MEC225", "MEC226"], "MEC310", "MEC320", "MEC325"]
+		},
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+", "SBS+", "SPK", "STEM+", "WRTD"],
+		"SBC_type": "partial"
+	},
+	"MEC450": {
+		"major": "MEC",
+		"number": 450,
+		"title": "Mechatronics",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["MEC310", "MEC316"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC499": {
+		"major": "MEC",
+		"number": 499,
+		"title": "Research in Mechanical Engineering",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": true,
+			"course": []
+		},
+		"credit": [0, 3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ATM102": {
+		"major": "ATM",
+		"number": 102,
+		"title": "Weather and Climate",
+		"SBC": ["SNW"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"BIO201": {
+		"major": "BIO",
+		"number": 201,
+		"title": "Organisms to Ecosystems",
+		"SBC": ["SNW"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"CAR210": {
+		"major": "CAR",
+		"number": 210,
+		"title": "Career Planning",
+		"SBC": [],
+		"credit": [3],
+		"SBC_type": ""
+	},
+	"CHI111": {
+		"major": "CHI",
+		"number": 111,
+		"title": "Elementary Chinese I",
+		"SBC": [],
+		"credit": [4],
+		"SBC_type": ""
+	},
+	"CHI112": {
+		"major": "CHI",
+		"number": 112,
+		"title": "Elementary Chinese II",
+		"SBC": ["LANG"],
+		"credit": [4],
+		"SBC_type": "full"
+	},
+	"ECO108": {
+		"major": "ECO",
+		"number": 108,
+		"title": "Introduction to Economics",
+		"SBC": ["SBS"],
+		"credit": [4],
+		"SBC_type": "full"
+	},
+	"ECO475": {
+		"major": "ECO",
+		"number": 475,
+		"title": "Undergrad Teachng Practicum I",
+		"SBC": ["EXP+"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"ESG198": {
+		"major": "ESG",
+		"number": 198,
+		"title": "Fundmntls of Engineering Chem",
+		"SBC": [],
+		"credit": [3],
+		"SBC_type": ""
+	},
+	"FLM102": {
+		"major": "FLM",
+		"number": 102,
+		"title": "Introduction to Film Composition: How Movies Say What They Mean",
+		"SBC": ["HUM"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"HIS104": {
+		"major": "HIS",
+		"number": 104,
+		"title": "United States Since 1877",
+		"SBC": ["SBS", "USA"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"HIS238": {
+		"major": "HIS",
+		"number": 238,
+		"title": "Sci, Tech, Med in West Civ II",
+		"SBC": ["STAS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"KOR111": {
+		"major": "KOR",
+		"number": 111,
+		"title": "Elementary Korean I",
+		"SBC": [],
+		"credit": [4],
+		"SBC_type": ""
+	},
+	"KOR112": {
+		"major": "KOR",
+		"number": 112,
+		"title": "Elementary Korean II",
+		"SBC": ["LANG"],
+		"credit": [4],
+		"SBC_type": "full"
+	},
+	"KOR220": {
+		"major": "KOR",
+		"number": 220,
+		"title": "Intermediate Heritage Korean",
+		"SBC": ["GLO", "HUM", "LANG"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"MAP103": {
+		"major": "MAP",
+		"number": 103,
+		"title": "Proficiency Algebra",
+		"SBC": [],
+		"credit": [3],
+		"SBC_type": ""
+	},
+	"MAT122": {
+		"major": "MAT",
+		"number": 122,
+		"title": "Overview of Calculus with Appl",
+		"SBC": ["QPS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"MAT123": {
+		"major": "MAT",
+		"number": 123,
+		"title": "Precalculus",
+		"SBC": ["QPS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"MUS105": {
+		"major": "MUS",
+		"number": 105,
+		"title": "Music Cultures of the World",
+		"SBC": ["ARTS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"PHY131": {
+		"major": "PHY",
+		"number": 131,
+		"title": "Classical Physics I",
+		"SBC": ["SNW"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"PHY132": {
+		"major": "PHY",
+		"number": 132,
+		"title": "Classical Physics II",
+		"SBC": ["SNW"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"PHY133": {
+		"major": "PHY",
+		"number": 133,
+		"title": "Classical Physics Laboratory I",
+		"SBC": [],
+		"credit": [1],
+		"SBC_type": ""
+	},
+	"PHY134": {
+		"major": "PHY",
+		"number": 134,
+		"title": "Classical Physics Lab II",
+		"SBC": [],
+		"credit": [1],
+		"SBC_type": ""
+	},
+	"POL101": {
+		"major": "POL",
+		"number": 101,
+		"title": "World Politics",
+		"SBC": ["GLO", "SBS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"POL102": {
+		"major": "POL",
+		"number": 102,
+		"title": "Intro to American Government",
+		"SBC": ["SBS", "USA"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"SOC247": {
+		"major": "SOC",
+		"number": 247,
+		"title": "Sociology of Gender",
+		"SBC": ["DIV", "SBS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"SUS206": {
+		"major": "SUS",
+		"number": 206,
+		"title": "Economics and Sustainability",
+		"SBC": ["SBS+"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"WAE192": {
+		"major": "WAE",
+		"number": 192,
+		"title": "High Intermediate Writing",
+		"SBC": [],
+		"credit": [3],
+		"SBC_type": ""
+	},
+	"WAE194": {
+		"major": "WAE",
+		"number": 194,
+		"title": "Advanced Writing Academic Eng",
+		"SBC": [],
+		"credit": [3],
+		"SBC_type": ""
+	},
+	"WRT101": {
+		"major": "WRT",
+		"number": 101,
+		"title": "Introductory Writing Workshop",
+		"SBC": [],
+		"credit": [3],
+		"SBC_type": ""
+	},
+	"WRT102": {
+		"major": "WRT",
+		"number": 102,
+		"title": "Intermediate Writing Workshop",
+		"SBC": ["WRT"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"WST247": {
+		"major": "WST",
+		"number": 247,
+		"title": "Sociology of Gender",
+		"SBC": ["DIV", "SBS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"AMS317": {
+		"major": "AMS",
+		"number": 317,
+		"title": "Introduction to Linear Regression Analysis",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["AMS315"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS318": {
+		"major": "AMS",
+		"number": 318,
+		"title": "Financial Mathematics",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["AMS310"]
+		},
+		"credit": [3],
+		"SBC": ["WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS361": {
+		"major": "AMS",
+		"number": 361,
+		"title": "Applied Calculus IV",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 9,
+			"permission": false,
+			"course": [["AMS161", "MAT127", "MAT132", "MAT142"]]
+		},
+		"credit": [4],
+		"SBC": ["STEM+"],
+		"SBC_type": "full"
+	},
+	"AMS394": {
+		"major": "AMS",
+		"number": 394,
+		"title": "Statistical Laboratory",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["AMS310", "AMS315"]
+		},
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+"],
+		"SBC_type": "full"
+	},
+	"AMS412": {
+		"major": "AMS",
+		"number": 412,
+		"title": "Mathematical Statistics",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["AMS311"]
+		},
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS301": {
+		"major": "BUS",
+		"number": 301,
+		"title": "Business Communications",
+		"prereq": {
+			"majorOnly": "BUS",
+
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["WRT102"]
+		},
+		"credit": [3],
+		"SBC": ["SPK", "WRTD"],
+		"SBC_type": "full"
+	},
+	"BUS358": {
+		"major": "BUS",
+		"number": 358,
+		"title": "Marketing Research",
+		"prereq": {
+			"majorOnly": "BUS",
+			"higher": [],
+			"grade": 3,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["BUS215"]
+		},
+		"credit": [3],
+		"SBC": ["ESI"],
+		"SBC_type": "full"
+	},
+	"BUS366": {
+		"major": "BUS",
+		"number": 366,
+		"title": "Money and Financial Institutions",
+		"prereq": {
+			"majorOnly": ["BUS", "AMS"],
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["BUS330"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE300": {
+		"major": "CSE",
+		"number": 300,
+		"title": "Technical Communications",
+		"prereq": {
+			"majorOnly": "CSE",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["WRT102"]
+		},
+		"credit": [3],
+		"SBC": ["SPK", "WRTD"],
+		"SBC_type": "full"
+	},
+	"CSE304": {
+		"major": "CSE",
+		"number": 304,
+		"title": "Compiler Design",
+		"prereq": {
+			"majorOnly": "",
+			"higher": ["C", "CSE216", "CSE219", "CSE260"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["CSE220"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE306": {
+		"major": "CSE",
+		"number": 306,
+		"title": "Operating Systems",
+		"prereq": {
+			"majorOnly": "CSE",
+			"higher": ["C", "CSE216", "CSE219", "CSE260"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["CSE320"]
+		},
+		"credit": [3],
+		"SBC": ["ESI", "EXP+", "SBS+", "STEM+"],
+		"SBC_type": "partial"
+	},
+	"CSE310": {
+		"major": "CSE",
+		"number": 310,
+		"title": "Computer Networks",
+		"prereq": {
+			"majorOnly": "CSE",
+			"higher": ["C", "CSE214", "CSE260"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["CSE220"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE353": {
+		"major": "CSE",
+		"number": 353,
+		"title": "Machine Learning",
+		"prereq": {
+			"majorOnly": "CSE",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [
+				["CSE216", "CSE219", "CSE260"],
+				["AMS310", "AMS311", "AMS312"]
+			]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE373": {
+		"major": "CSE",
+		"number": 373,
+		"title": "Analysis of Algorithms",
+		"prereq": ["C or higher in MAT 211 or AMS 210", "CSE 214 or CSE 260"],
+		"prereq": {
+			"majorOnly": "CSE",
+			"higher": ["C", "MAT211", "AMS210"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["CSE214", "CSE260"]]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST205": {
+		"major": "EST",
+		"number": 205,
+		"title": "Introduction to Technological Design",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST280": {
+		"major": "EST",
+		"number": 280,
+		"title": "Fundamentals of Industrial Engineering",
+		"prereq": {
+			"majorOnly": "",
+			"higher": ["C", "AMS151", "MAT131", "MAT141"],
+			"grade": 1,
+			"mathLevel": 7,
+			"permission": false,
+			"course": []
+		},
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"MEC226": {
+		"major": "MEC",
+		"number": 226,
+		"title": "Modern Machining Practices",
+		"prereq": {
+			"majorOnly": "",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": true,
+			"course": ["MEC203"]
+		},
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC301": {
+		"major": "MEC",
+		"number": 301,
+		"title": "Thermodynamics",
+		"prereq": {
+			"majorOnly": "MEC",
+			"higher": [],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [
+				["AMS261", "MAT203"],
+				["PHY125", "PHY131", "PHY141"],
+				"CHE131"
+			]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC310": {
+		"major": "MEC",
+		"number": 310,
+		"title": "Introduction to Machine Design",
+		"prereq": {
+			"majorOnly": "",
+			"higher": ["C", "MEC262"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": [["MEC102", "CSE114", "CSE130"], "MEC203"]
+		},
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC316": {
+		"major": "MEC",
+		"number": 316,
+		"title": "Instrumentation and Solid Mechanics Laboratory",
+		"prereq": {
+			"majorOnly": "MEC",
+			"higher": ["C", "MEC363"],
+			"grade": 1,
+			"mathLevel": 0,
+			"permission": false,
+			"course": ["PHY134"]
+		},
+		"credit": [2],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"MEC320": {
+		"major": "MEC",
+		"number": 320,
+		"title": "Numerical Methods in Engineering Design and Analysis",
+		"prereq": [
+			"MEC 102 or CSE 114 or CSE 130 or ESG 111 or ESE 124 or BME 120",
+			"AMS 261 or MAT 203",
+			"AMS 361 or MAT 303"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC325": {
+		"major": "MEC",
+		"number": 325,
+		"title": "Manufacturing Processes",
+		"prereq": ["MEC 203", "MEC major or permission of the department"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC364": {
+		"major": "MEC",
+		"number": 364,
+		"title": "Introduction to Fluid Mechanics",
+		"prereq": ["PHY 126 or PHY 131", "MEC 262", "MEC Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC402": {
+		"major": "MEC",
+		"number": 402,
+		"title": "Mechanical Vibrations",
+		"prereq": ["MEC 262 and 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC422": {
+		"major": "MEC",
+		"number": 422,
+		"title": "Thermal System Design",
+		"prereq": ["MEC 305"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC441": {
+		"major": "MEC",
+		"number": 441,
+		"title": "Mechanical Engineering Design II",
+		"prereq": ["MEC 440"],
+		"credit": [3],
+		"SBC": ["CER", "ESI", "EXP+", "SBS+", "SPK", "STEM+", "WRTD"],
+		"SBC_type": "partial"
+	},
+	"MEC455": {
+		"major": "MEC",
+		"number": 455,
+		"title": "Applied Stress Analysis",
+		"prereq": ["MEC 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ARS205": {
+		"major": "ARS",
+		"number": 205,
+		"title": "Foundations: Idea and Form",
+		"SBC": ["ARTS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"ARS225": {
+		"major": "ARS",
+		"number": 225,
+		"title": "Introduction to Digital Art",
+		"SBC": ["ARTS", "TECH"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"ESG281": {
+		"major": "ESG",
+		"number": 281,
+		"title": "Engineering Introduction to the Solid State",
+		"SBC": [],
+		"credit": [3],
+		"SBC_type": ""
+	},
+	"ESG332": {
+		"major": "ESG",
+		"number": 332,
+		"title": "Materials Sci I: Struct & Prop",
+		"SBC": [],
+		"credit": [3],
+		"SBC_type": ""
+	},
+	"HIS101": {
+		"major": "HIS",
+		"number": 101,
+		"title": "Ancient Mesopotamia to Early Modern Europe",
+		"SBC": ["GLO", "SBS"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"HIS103": {
+		"major": "HIS",
+		"number": 103,
+		"title": "American History to 1877",
+		"SBC": ["SBS", "USA"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"MAT200": {
+		"major": "MAT",
+		"number": 200,
+		"title": "Logic, Language and Proof",
+		"SBC": ["STEM+"],
+		"credit": [3],
+		"SBC_type": "full"
+	},
+	"AMS102": {
+		"major": "AMS",
+		"number": 102,
+		"title": "Elements of Statistics",
+		"prereq": [
+			"Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS",
+			"Non AMS majors only"
+		],
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"AMS103": {
+		"major": "AMS",
+		"number": 103,
+		"title": "Applied Mathematics in Modern Technology",
+		"prereq": [
+			"Level 3 or higher on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": ["QPS", "TECH"],
+		"SBC_type": "full"
+	},
+	"AMS104": {
+		"major": "AMS",
+		"number": 104,
+		"title": "Spreadsheet Technology and Applications",
+		"prereq": [
+			"Level 2+ or higher on the mathematics placement examination or MAT 123 or higher"
+		],
+		"credit": [3],
+		"SBC": ["QPS", "TECH"],
+		"SBC_type": "full"
+	},
+	"AMS105": {
+		"major": "AMS",
+		"number": 105,
+		"title": "Introduction to Business Statistics",
+		"prereq": ["BUS Maj/Min, CME Major, or ISE Major."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS110": {
+		"major": "AMS",
+		"number": 110,
+		"title": "Probability and Statistics in the Life Sciences",
+		"prereq": ["AMS 151 or MAT 125 or 131 or 141."],
+		"credit": [3],
+		"SBC": ["QPS"],
+		"SBC_type": "full"
+	},
+	"AMS300": {
+		"major": "AMS",
+		"number": 300,
+		"title": "Writing in Applied Mathematics",
+		"prereq": ["WRT 102", "AMS major", "U3 or U4 standing"],
+		"credit": [1],
+		"SBC": ["SPK", "WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS316": {
+		"major": "AMS",
+		"number": 316,
+		"title": "Introduction to Time Series Analysis",
+		"prereq": ["AMS 311 and AMS 315"],
+		"credit": [3],
+		"SBC": ["SBS+"],
+		"SBC_type": "full"
+	},
+	"AMS320": {
+		"major": "AMS",
+		"number": 320,
+		"title": "Introduction to Quantitative Finance",
+		"prereq": ["AMS 311"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS325": {
+		"major": "AMS",
+		"number": 325,
+		"title": "Computing and Programming Fundamentals in Applied Mathematics and Statistics",
+		"prereq": ["AMS 210 or MAT 211", "AMS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS332": {
+		"major": "AMS",
+		"number": 332,
+		"title": "Computational Modeling of Physiological Systems",
+		"prereq": [
+			"MAT 127 or MAT 132 or higher and any one of the following: BIO 202 or BIO 203 or CHE 132 or CHE 331 or PHY 127 or PHY 132"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS333": {
+		"major": "AMS",
+		"number": 333,
+		"title": "Mathematical Biology",
+		"prereq": [
+			"AMS 161 or MAT 132",
+			"AMS 210 or MAT 211",
+			"U3 or U4 standing",
+			"or permission of the instructor"
+		],
+		"credit": [3],
+		"SBC": ["EXP+", "WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS335": {
+		"major": "AMS",
+		"number": 335,
+		"title": "Game Theory",
+		"prereq": [
+			"MAT 126 or 131 or 141 or AMS 151",
+			"C or higher in ECO 303"
+		],
+		"credit": [3],
+		"SBC": ["SBS+"],
+		"SBC_type": "full"
+	},
+	"AMS341": {
+		"major": "AMS",
+		"number": 341,
+		"title": "Operations Research I",
+		"prereq": ["AMS 210 or MAT 211 or MAT 307 and MAT 308"],
+		"credit": [3],
+		"SBC": ["SBS+"],
+		"SBC_type": "full"
+	},
+	"AMS342": {
+		"major": "AMS",
+		"number": 342,
+		"title": "Operations Research II",
+		"prereq": ["AMS 210 or MAT 211", "AMS 311"],
+		"credit": [3],
+		"SBC": ["SBS+"],
+		"SBC_type": "full"
+	},
+	"AMS345": {
+		"major": "AMS",
+		"number": 345,
+		"title": "Computational Geometry",
+		"prereq": ["AMS 301", "programming knowledge of C or C++ or Java"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS351": {
+		"major": "AMS",
+		"number": 351,
+		"title": "Applied Algebra",
+		"prereq": ["AMS 210 or MAT 211"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS380": {
+		"major": "AMS",
+		"number": 380,
+		"title": "Data Mining",
+		"prereq": ["AMS 311"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS410": {
+		"major": "AMS",
+		"number": 410,
+		"title": "Actuarial Mathematics",
+		"prereq": ["AMS 261 or MAT 203 or 205", "AMS 310", "AMS 311 or 315"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS441": {
+		"major": "AMS",
+		"number": 441,
+		"title": "Business Enterprise",
+		"prereq": ["Junior or Senior Standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"AMS458": {
+		"major": "AMS",
+		"number": 458,
+		"title": "Speak Effectively Before an Audience",
+		"prereq": ["WRT 102 or equivalent", "permission of the instructor"],
+		"credit": [0],
+		"SBC": ["SPK"],
+		"SBC_type": "full"
+	},
+	"AMS459": {
+		"major": "AMS",
+		"number": 459,
+		"title": "Write Effectively in Applied Mathematics",
+		"prereq": ["WRT 102", "permission of the instructor"],
+		"credit": [0],
+		"SBC": ["WRTD"],
+		"SBC_type": "full"
+	},
+	"AMS492": {
+		"major": "AMS",
+		"number": 492,
+		"title": "Topics in Applied Mathematics",
+		"prereq": ["Permission of instructor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE110": {
+		"major": "CSE",
+		"number": 110,
+		"title": "Introduction to Computer Science",
+		"prereq": [
+			"Level 3 or higher on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE130": {
+		"major": "CSE",
+		"number": 130,
+		"title": "Introduction to Programming in C",
+		"prereq": [
+			"Level 3 or higher on the mathematics placement examination"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE150": {
+		"major": "CSE",
+		"number": 150,
+		"title": "Foundations of Computer Science",
+		"prereq": [
+			"one MAT course that satisfies D.E.C. C or QPS or score of level 4 on the math placement exam",
+			"admission to the Computer Science Honors Program or the Honors College or the WISE Honors Program or University Scholars."
+		],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE160": {
+		"major": "CSE",
+		"number": 160,
+		"title": "Computer Science A",
+		"prereq": [
+			"Computer Science Honors Program or the Honors College or the WISE Honors Program or University Scholars."
+		],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE161": {
+		"major": "CSE",
+		"number": 161,
+		"title": "Laboratory for Computer Science A",
+		"prereq": [],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE190": {
+		"major": "CSE",
+		"number": 190,
+		"title": "Special Topics in Practice and Applications of Computer Science",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE191": {
+		"major": "CSE",
+		"number": 191,
+		"title": "Special Topics in Practice and Applications for Computer Science",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE192": {
+		"major": "CSE",
+		"number": 192,
+		"title": "Special Topics in Practice and Applications for Computer Science",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"CSE219": {
+		"major": "CSE",
+		"number": 219,
+		"title": "Computer Science III",
+		"prereq": ["C or higher in CSE 214 and CSE major or ECE major"],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE230": {
+		"major": "CSE",
+		"number": 230,
+		"title": "Intermediate Programming in C and C++",
+		"prereq": [
+			"CSE 130 or CSE 220 or ESE 124 or ESG 111 or BME 120 or MEC 102"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE260": {
+		"major": "CSE",
+		"number": 260,
+		"title": "Computer Science B",
+		"prereq": ["CSE 160"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE261": {
+		"major": "CSE",
+		"number": 261,
+		"title": "Laboratory for Computer Science B",
+		"prereq": [],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE301": {
+		"major": "CSE",
+		"number": 301,
+		"title": "History of Computing",
+		"prereq": ["U2 standing or higher"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"CSE307": {
+		"major": "CSE",
+		"number": 307,
+		"title": "Principles of Programming Languages",
+		"prereq": [
+			"C or higher: CSE 216 or CSE 219 or CSE 260",
+			"CSE 220",
+			"CSE major."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE311": {
+		"major": "CSE",
+		"number": 311,
+		"title": "Systems Administration",
+		"prereq": [
+			"CSE 214 or CSE 230 or CSE 260 or ISE 208",
+			"ISE or CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE323": {
+		"major": "CSE",
+		"number": 323,
+		"title": "Human-Computer Interaction",
+		"prereq": ["CSE 214 or CSE 230 or CSE 260 or ISE 208"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE325": {
+		"major": "CSE",
+		"number": 325,
+		"title": "Computers and Sculpture",
+		"prereq": ["CSE 110 or CSE 101 or CSE 114"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE328": {
+		"major": "CSE",
+		"number": 328,
+		"title": "Fundamentals of Computer Graphics",
+		"prereq": [
+			"C or higher: CSE 216 or CSE 219 or CSE 260",
+			"CSE 220",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE332": {
+		"major": "CSE",
+		"number": 332,
+		"title": "Introduction to Visualization",
+		"prereq": [
+			"CSE 214 or CSE 260",
+			"MAT 211 or AMS 210",
+			"AMS 110 or AMS 310",
+			"CSE or ISE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE333": {
+		"major": "CSE",
+		"number": 333,
+		"title": "User Interface Development",
+		"prereq": ["CSE 214 or CSE 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE334": {
+		"major": "CSE",
+		"number": 334,
+		"title": "Introduction to Multimedia Systems",
+		"prereq": ["U2, U3 or U4 standing", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE336": {
+		"major": "CSE",
+		"number": 336,
+		"title": "Internet Programming",
+		"prereq": ["C or higher in CSE 216 or CSE 219 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE337": {
+		"major": "CSE",
+		"number": 337,
+		"title": "Scripting Languages",
+		"prereq": [
+			"CSE 114 or CSE 160 or ISE 208",
+			"CSE or ISE major",
+			"U3 or U4 standing"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE350": {
+		"major": "CSE",
+		"number": 350,
+		"title": "Theory of Computation",
+		"prereq": [
+			"CSE 150 or CSE 215",
+			"AMS 210 or MAT 211",
+			"Computer Science Honors Program or the Honors College or the WISE Honors Program or University Scholars."
+		],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE351": {
+		"major": "CSE",
+		"number": 351,
+		"title": "Introduction to Data Science",
+		"prereq": ["CSE 214 or CSE 260", "AMS 310", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE354": {
+		"major": "CSE",
+		"number": 354,
+		"title": "Natural Language Processing",
+		"prereq": ["CSE 216 or CSE 219 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE355": {
+		"major": "CSE",
+		"number": 355,
+		"title": "Computational Geometry",
+		"prereq": ["AMS 301", "programming knowledge of C or C++ or Java"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE356": {
+		"major": "CSE",
+		"number": 356,
+		"title": "Cloud Computing",
+		"prereq": [
+			"C or higher: CSE 216 or 219 or 260",
+			"CSE 220",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE357": {
+		"major": "CSE",
+		"number": 357,
+		"title": "Statistical Methods for Data Science",
+		"prereq": [
+			"C or higher in CSE 216 or CSE 219 or CSE 260",
+			"AMS 310",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE360": {
+		"major": "CSE",
+		"number": 360,
+		"title": "Software Security",
+		"prereq": ["CSE 331", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE361": {
+		"major": "CSE",
+		"number": 361,
+		"title": "Web Security",
+		"prereq": ["CSE 331", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE362": {
+		"major": "CSE",
+		"number": 362,
+		"title": "Mobile Security",
+		"prereq": ["CSE 331", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE363": {
+		"major": "CSE",
+		"number": 363,
+		"title": "Offensive Security",
+		"prereq": ["CSE 331", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE364": {
+		"major": "CSE",
+		"number": 364,
+		"title": "Advanced Multimedia Techniques",
+		"prereq": ["CSE/ISE 334"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE366": {
+		"major": "CSE",
+		"number": 366,
+		"title": "Introduction to Virtual Reality",
+		"prereq": ["CSE 328 or CSE/ISE 332", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE370": {
+		"major": "CSE",
+		"number": 370,
+		"title": "Wireless and Mobile Networking",
+		"prereq": ["CSE 310", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE371": {
+		"major": "CSE",
+		"number": 371,
+		"title": "Logic",
+		"prereq": ["CSE 150 or CSE 215 or MAT 200 or MAT 250"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE376": {
+		"major": "CSE",
+		"number": 376,
+		"title": "Advanced Systems Programming in UNIX/C",
+		"prereq": [
+			"C or higher: CSE 216 or CSE 219 or 260",
+			"CSE 320",
+			"CSE major"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE377": {
+		"major": "CSE",
+		"number": 377,
+		"title": "Introduction to Medical Imaging",
+		"prereq": ["AMS 161 or MAT 127 or 132 or 142", "AMS 210 or MAT 211"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE378": {
+		"major": "CSE",
+		"number": 378,
+		"title": "Introduction to Robotics",
+		"prereq": [
+			"AMS 161 or MAT 127 or 132 or 142",
+			"AMS 210 or MAT 211 or MEC 262"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE380": {
+		"major": "CSE",
+		"number": 380,
+		"title": "2D Game Programming",
+		"prereq": ["CSE 216 or CSE 219 or CSE 220 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE381": {
+		"major": "CSE",
+		"number": 381,
+		"title": "3D Game Programming",
+		"prereq": ["CSE 216 or CSE 219 or CSE 220 or CSE 260", "CSE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE385": {
+		"major": "CSE",
+		"number": 385,
+		"title": "Analysis of Algorithms",
+		"prereq": [
+			"CSE 260 or CSE 214",
+			"AMS 210 or MAT 211",
+			"Computer Science Honors Program or the Honors College or the WISE Honors Program or University Scholars."
+		],
+		"credit": [4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE390": {
+		"major": "CSE",
+		"number": 390,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE391": {
+		"major": "CSE",
+		"number": 391,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE392": {
+		"major": "CSE",
+		"number": 392,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE393": {
+		"major": "CSE",
+		"number": 393,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE394": {
+		"major": "CSE",
+		"number": 394,
+		"title": "Special Topics in Computer Science",
+		"prereq": ["CSE 214 or 260", "CSE or ISE major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE488": {
+		"major": "CSE",
+		"number": 488,
+		"title": "Internship in Computer Science",
+		"prereq": ["CSE major, U3 or U4 standing", "permission of department"],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"CSE495": {
+		"major": "CSE",
+		"number": 495,
+		"title": "Senior Honors Research Project I",
+		"prereq": ["Admission to the Computer Science Honors Program"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"CSE496": {
+		"major": "CSE",
+		"number": 496,
+		"title": "Senior Honors Research Project II",
+		"prereq": ["CSE 495"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS115": {
+		"major": "BUS",
+		"number": 115,
+		"title": "Introduction to Business",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS294": {
+		"major": "BUS",
+		"number": 294,
+		"title": "Principles of Management",
+		"prereq": [
+			"BUS Major or Minor",
+			"U1 or U2 standing or permission of instructor"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS300": {
+		"major": "BUS",
+		"number": 300,
+		"title": "Writing for Business Management",
+		"prereq": ["BUS major", "U3 standing"],
+		"credit": [0],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS302": {
+		"major": "BUS",
+		"number": 302,
+		"title": "Social Media Marketing Strategy",
+		"prereq": ["WRT 102, U2 standing or above"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS325": {
+		"major": "BUS",
+		"number": 325,
+		"title": "Legal Environment of Business",
+		"prereq": ["ACC Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS331": {
+		"major": "BUS",
+		"number": 331,
+		"title": "International Finance",
+		"prereq": [
+			"BUS 330",
+			"Business major or AMS or ISE or MTD or ECO major or ENT minor"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS332": {
+		"major": "BUS",
+		"number": 332,
+		"title": "Entrepreneurial Finance",
+		"prereq": ["BUS 330", "Business Major or or Entrepreneurship Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS333": {
+		"major": "BUS",
+		"number": 333,
+		"title": "Introduction to the Business of Real Estate",
+		"prereq": ["BUS Major or Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS334": {
+		"major": "BUS",
+		"number": 334,
+		"title": "Consumer Advertising and Promotion",
+		"prereq": ["BUS major and U3 or U4 standing."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS336": {
+		"major": "BUS",
+		"number": 336,
+		"title": "Mergers & Acquisitions",
+		"prereq": ["BUS 330", "Business Major or or Entrepreneurship Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS337": {
+		"major": "BUS",
+		"number": 337,
+		"title": "Entrepreneurship Compared Across Countries",
+		"prereq": ["Business major, Business Minor or Entrepreneurship minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS340": {
+		"major": "BUS",
+		"number": 340,
+		"title": "Information Systems in Management",
+		"prereq": [
+			"BUS Major/Minor, ISE Major, or CME Major",
+			"U3 or U4 standing."
+		],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"BUS351": {
+		"major": "BUS",
+		"number": 351,
+		"title": "Human Resource Management",
+		"prereq": ["BUS Major/Minor or MTD Major."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS354": {
+		"major": "BUS",
+		"number": 354,
+		"title": "Understanding Business Agreements",
+		"prereq": ["U3 or U4 standing", "BUS or CEAS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS355": {
+		"major": "BUS",
+		"number": 355,
+		"title": "Investment Analysis",
+		"prereq": ["BUS, AMS, MTD, ISE, or ECO major", "BUS 330"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS356": {
+		"major": "BUS",
+		"number": 356,
+		"title": "Financial Analysis with Excel",
+		"prereq": ["BUS, AMS, MTD, ISE, or ECO major", "BUS 330"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS357": {
+		"major": "BUS",
+		"number": 357,
+		"title": "Principles of Sales",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS362": {
+		"major": "BUS",
+		"number": 362,
+		"title": "Principles of International Marketing",
+		"prereq": ["BUS Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS363": {
+		"major": "BUS",
+		"number": 363,
+		"title": "Brand Management",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS369": {
+		"major": "BUS",
+		"number": 369,
+		"title": "Marketing of New Products",
+		"prereq": ["BUS Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS370": {
+		"major": "BUS",
+		"number": 370,
+		"title": "Lean Practices in Operations",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS371": {
+		"major": "BUS",
+		"number": 371,
+		"title": "Supply Chain Management",
+		"prereq": ["BUS major and pre/co-requisite BUS 346"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS372": {
+		"major": "BUS",
+		"number": 372,
+		"title": "Quality Management",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS375": {
+		"major": "BUS",
+		"number": 375,
+		"title": "Data Mining",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS376": {
+		"major": "BUS",
+		"number": 376,
+		"title": "Risk Management & Insurance",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS377": {
+		"major": "BUS",
+		"number": 377,
+		"title": "Risk Management & Insurance II",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS378": {
+		"major": "BUS",
+		"number": 378,
+		"title": "Marketing Ethics, Public Policy, and Social Change",
+		"prereq": ["BUS major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS380": {
+		"major": "BUS",
+		"number": 380,
+		"title": "Honors - Research Methods",
+		"prereq": ["Admission to the honors program in business management"],
+		"credit": [3],
+		"SBC": ["ESI"],
+		"SBC_type": "full"
+	},
+	"BUS383": {
+		"major": "BUS",
+		"number": 383,
+		"title": "Social Entrepreneurship",
+		"prereq": ["BUS Major,  BUS Minor or ENT Minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS389": {
+		"major": "BUS",
+		"number": 389,
+		"title": "Honors Research in Marketing",
+		"prereq": [
+			"Business Honors Program membership and department consent required."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS390": {
+		"major": "BUS",
+		"number": 390,
+		"title": "Special Topics in Business Management",
+		"prereq": ["BUS major", "U3 or U4 standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS391": {
+		"major": "BUS",
+		"number": 391,
+		"title": "Management of Sports Organizations",
+		"prereq": ["U3 or U4 standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS393": {
+		"major": "BUS",
+		"number": 393,
+		"title": "Principles of Project Management",
+		"prereq": ["BUS Major or Minor", "BUS 346"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS399": {
+		"major": "BUS",
+		"number": 399,
+		"title": "Intellectual Property Strategy",
+		"prereq": [
+			"Business majors, Business minors or Entrepreneurship minors, or by permission of instructor",
+			"U3 or U4 standing"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS401": {
+		"major": "BUS",
+		"number": 401,
+		"title": "Negotiation Workshop",
+		"prereq": ["Business Major or Entrepreneurship Minor", "U4 Standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS440": {
+		"major": "BUS",
+		"number": 440,
+		"title": "International Management",
+		"prereq": ["BUS Major or Minor or ECO or MTD Major", "U4 standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS441": {
+		"major": "BUS",
+		"number": 441,
+		"title": "Business Strategy",
+		"prereq": ["BUS or ECO or MTD or CME Major", "U4 standing"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS446": {
+		"major": "BUS",
+		"number": 446,
+		"title": "Ethics",
+		"prereq": ["BUS Major or BUS Minor", "WRT 102 ", "U4 standing"],
+		"credit": [3],
+		"SBC": ["CER"],
+		"SBC_type": "full"
+	},
+	"BUS449": {
+		"major": "BUS",
+		"number": 449,
+		"title": "Marketing in Action",
+		"prereq": ["BUS Major", "U4 Standing", "BUS 348 and BUS 358"],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS468": {
+		"major": "BUS",
+		"number": 468,
+		"title": "Risk Arbitrage",
+		"prereq": ["BUS Major, BUS 330, and department consent"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS476": {
+		"major": "BUS",
+		"number": 476,
+		"title": "Undergraduate Teaching Practicum II",
+		"prereq": ["BUS 475 and permission of undergraduate program director"],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS487": {
+		"major": "BUS",
+		"number": 487,
+		"title": "Independent Research",
+		"prereq": [
+			"Permission of instructor and undergraduate program director"
+		],
+		"credit": [0, 3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"BUS495": {
+		"major": "BUS",
+		"number": 495,
+		"title": "Business Honors Program Thesis",
+		"prereq": [
+			"Business Honors Program membership and department consent required."
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"BUS496": {
+		"major": "BUS",
+		"number": 496,
+		"title": "Business Honors Program Thesis",
+		"prereq": [
+			"Business Honors Program membership and department consent required."
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"ACC214": {
+		"major": "ACC",
+		"number": 214,
+		"title": "Managerial Cost Analysis and Applications",
+		"prereq": ["BUS major or ACC minor or ISE Major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC310": {
+		"major": "ACC",
+		"number": 310,
+		"title": "Intermediate Accounting I",
+		"prereq": ["BUS major or ACC minor and ACC 210"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC311": {
+		"major": "ACC",
+		"number": 311,
+		"title": "Federal Income Taxation I",
+		"prereq": ["BUS major or ACC minor"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC313": {
+		"major": "ACC",
+		"number": 313,
+		"title": "Intermediate Accounting II",
+		"prereq": ["BUS major or ACC Minor and ACC 310"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC314": {
+		"major": "ACC",
+		"number": 314,
+		"title": "Federal Income Taxation II",
+		"prereq": ["BUS Major or ACC Minor and ACC 311"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC315": {
+		"major": "ACC",
+		"number": 315,
+		"title": "Accounting for the Small Business Entrepreneur",
+		"prereq": ["BUS Major", "ACC 210"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"ACC400": {
+		"major": "ACC",
+		"number": 400,
+		"title": "External Auditing",
+		"prereq": ["BUS Major or ACC minor and ACC 210"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC100": {
+		"major": "MEC",
+		"number": 100,
+		"title": "Introduction to Mechanical Engineering",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC104": {
+		"major": "MEC",
+		"number": 104,
+		"title": "Practical Science of Things",
+		"prereq": [
+			"Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS"
+		],
+		"credit": [3],
+		"SBC": ["SNW", "TECH"],
+		"SBC_type": "full"
+	},
+	"MEC105": {
+		"major": "MEC",
+		"number": 105,
+		"title": "Everyday Science and Engineering",
+		"prereq": [
+			"Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS"
+		],
+		"credit": [3],
+		"SBC": ["SNW", "TECH"],
+		"SBC_type": "full"
+	},
+	"MEC220": {
+		"major": "MEC",
+		"number": 220,
+		"title": "Practical Electronics for Mechanical Engineers",
+		"prereq": ["PHY127, PHY132, or PHY142"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC225": {
+		"major": "MEC",
+		"number": 225,
+		"title": "Fundamentals of Machining Practices",
+		"prereq": ["MEC 203", "MEC major or permission of instructor"],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC260": {
+		"major": "MEC",
+		"number": 260,
+		"title": "Engineering Statics",
+		"prereq": ["PHY 131 or 141 or 125"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC280": {
+		"major": "MEC",
+		"number": 280,
+		"title": "Pollution and Human Health",
+		"prereq": ["one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"MEC393": {
+		"major": "MEC",
+		"number": 393,
+		"title": "Engineering Fluid Mechanics",
+		"prereq": ["MEC 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC398": {
+		"major": "MEC",
+		"number": 398,
+		"title": "Thermodynamics II",
+		"prereq": ["MEC 301 and 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC423": {
+		"major": "MEC",
+		"number": 423,
+		"title": "Internal Combustion Engines",
+		"prereq": ["MEC 305"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC442": {
+		"major": "MEC",
+		"number": 442,
+		"title": "Introduction to Experimental Stress Analysis",
+		"prereq": ["MEC 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC456": {
+		"major": "MEC",
+		"number": 456,
+		"title": "Introduction to Engineering Mechanics of Composites",
+		"prereq": ["MEC 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC457": {
+		"major": "MEC",
+		"number": 457,
+		"title": "Engineering Composites Fabrication and Characterization",
+		"prereq": ["MEC 363"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC464": {
+		"major": "MEC",
+		"number": 464,
+		"title": "Fundamentals of Aerodynamics",
+		"prereq": ["MEC 305", "MEC 310", "MEC 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC465": {
+		"major": "MEC",
+		"number": 465,
+		"title": "Aerospace Propulsion",
+		"prereq": ["MEC 305", "MEC 310", "MEC 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC470": {
+		"major": "MEC",
+		"number": 470,
+		"title": "Introduction to Tribology",
+		"prereq": ["MEC 363 and 364"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC475": {
+		"major": "MEC",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": [
+			"U4 standing",
+			"a minimum g.p.a. of 3.00 in all Stony Brook courses and the grade of B or better in the course in which the student is to assist",
+			"permission of department"
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"MEC488": {
+		"major": "MEC",
+		"number": 488,
+		"title": "Mechanical Engineering Internship",
+		"prereq": ["Permission of undergraduate program director"],
+		"credit": [3, 9],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	},
+	"MEC491": {
+		"major": "MEC",
+		"number": 491,
+		"title": "Topics in Mechanical Engineering",
+		"prereq": [
+			"U3 or U4 standing in a B.E. degree major",
+			"permission of department (course prerequisites vary with topic)"
+		],
+		"credit": [1, 4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC492": {
+		"major": "MEC",
+		"number": 492,
+		"title": "Topics in Mechanical Engineering",
+		"prereq": [
+			"U3 or U4 standing in a B.E. degree major",
+			"permission of department (course prerequisites vary with topic)"
+		],
+		"credit": [1, 4],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"MEC495": {
+		"major": "MEC",
+		"number": 495,
+		"title": "Professional Engineering Seminar",
+		"prereq": ["CEAS major", "U4 standing"],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST100": {
+		"major": "EST",
+		"number": 100,
+		"title": "Designing, Producing & Presenting Multimedia Projects",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST102": {
+		"major": "EST",
+		"number": 102,
+		"title": "Weather and Climate",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["SNW"],
+		"SBC_type": "full"
+	},
+	"EST104": {
+		"major": "EST",
+		"number": 104,
+		"title": "Projects in Technology and Society",
+		"prereq": ["Permission of department"],
+		"credit": [1, 3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST105": {
+		"major": "EST",
+		"number": 105,
+		"title": "The Digital Generation",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST106": {
+		"major": "EST",
+		"number": 106,
+		"title": "The Digital Generation",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST192": {
+		"major": "EST",
+		"number": 192,
+		"title": "Introduction to Modern Engineering",
+		"prereq": [
+			"Course is for students without prior engineering  experience, permission of the department required"
+		],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST200": {
+		"major": "EST",
+		"number": 200,
+		"title": "Cultural Technologies and Society",
+		"prereq": ["One DEC E or SNW course", "WRT 102"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST201": {
+		"major": "EST",
+		"number": 201,
+		"title": "Technological Trends in Society",
+		"prereq": ["one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST203": {
+		"major": "EST",
+		"number": 203,
+		"title": "Technology in the City",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST208": {
+		"major": "EST",
+		"number": 208,
+		"title": "Virtual Distance Foundations",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST209": {
+		"major": "EST",
+		"number": 209,
+		"title": "Introduction to Italian Design",
+		"prereq": [],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST210": {
+		"major": "EST",
+		"number": 210,
+		"title": "Learning to Learn New Technologies",
+		"prereq": [],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST221": {
+		"major": "EST",
+		"number": 221,
+		"title": "Multimedia for Online Content Platforms",
+		"prereq": ["EST 100"],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST291": {
+		"major": "EST",
+		"number": 291,
+		"title": "Energy, Environment, and People",
+		"prereq": [
+			"one D.E.C. E or SNW course (except those designated ANP)",
+			"any AMS or MAT course"
+		],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST306": {
+		"major": "EST",
+		"number": 306,
+		"title": "Cloud Computing Applications",
+		"prereq": ["EST 305"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST323": {
+		"major": "EST",
+		"number": 323,
+		"title": "Human-Computer Interaction",
+		"prereq": ["CSE 214 or CSE 230 or CSE 260 or ISE 208"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST330": {
+		"major": "EST",
+		"number": 330,
+		"title": "Natural Disasters",
+		"prereq": ["U3 or U4 standing", "one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["STAS"],
+		"SBC_type": "full"
+	},
+	"EST339": {
+		"major": "EST",
+		"number": 339,
+		"title": "Benevolent Computing",
+		"prereq": ["U3 or U4 standing", "ISE or TSM major"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST341": {
+		"major": "EST",
+		"number": 341,
+		"title": "Waste Treatment Technologies",
+		"prereq": ["EST 202 or MAT 123 and one D.E.C. E or SNW course"],
+		"credit": [3],
+		"SBC": ["TECH"],
+		"SBC_type": "full"
+	},
+	"EST344": {
+		"major": "EST",
+		"number": 344,
+		"title": "Technical Writing",
+		"prereq": ["EST 304"],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST388": {
+		"major": "EST",
+		"number": 388,
+		"title": "Special Topics in Technological Systems Management",
+		"prereq": ["TSM major or permission of instructor or department."],
+		"credit": [1],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST389": {
+		"major": "EST",
+		"number": 389,
+		"title": "Special Topics in Technological Systems Management",
+		"prereq": ["TSM major or permission of instructor or department."],
+		"credit": [3],
+		"SBC": [],
+		"SBC_type": ""
+	},
+	"EST475": {
+		"major": "EST",
+		"number": 475,
+		"title": "Undergraduate Teaching Practicum",
+		"prereq": [
+			"U4 standing",
+			"a minimum g.p.a. of 3.00 in all Stony Brook courses and a grade of B or better in the course in which the student is to assist",
+			"permission of department"
+		],
+		"credit": [3],
+		"SBC": ["EXP+"],
+		"SBC_type": "full"
+	}
+}
